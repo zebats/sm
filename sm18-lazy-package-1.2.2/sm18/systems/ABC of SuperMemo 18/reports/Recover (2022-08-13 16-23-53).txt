@@ -1,0 +1,20 @@
+SuperMemo Report
+   Activity: Checking the integrity of the collection
+   Collection: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
+   Date: Saturday, August 13, 2022, 4:23:53 PM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+Checking 3,512 element records (ElementInfo.dat)
+Verifying integrity of element data (3512 elements in ElementInfo.dat)
+Verifying knowledge tree (3,512 elements in Contents.dat)
+420 children at Topic #2,444: CET4
+Verifying the priority queue of 598 elements
+Verifying repetition schedule (Workload.dat and ElementInfo.dat)
+Verifying pending queue (Intact.dat)
+Verifying A-Factor, Lapses and Repetitions distributions
+
+Process completed at 4:23:54 PM in 00:00:00 sec (Saturday, August 13, 2022)
+
+NO ERRORS (Checking the integrity of the collection)
+
+____________________________________________________________

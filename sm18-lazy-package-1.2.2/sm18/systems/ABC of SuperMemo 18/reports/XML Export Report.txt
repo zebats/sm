@@ -1,0 +1,12 @@
+SuperMemo Report
+   Activity: Exporting to F:\Desktop\ABC of SuperMemo 18 (all elements).xml
+   Collection: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
+   Date: Monday, July 18, 2022, 6:11:59 PM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+
+Process completed at 6:12:02 PM in 00:00:02 sec (Monday, July 18, 2022)
+
+NO ERRORS (Exporting to F:\Desktop\ABC of SuperMemo 18 (all elements).xml)
+
+____________________________________________________________
