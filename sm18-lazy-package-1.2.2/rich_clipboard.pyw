@@ -83,7 +83,7 @@ class HtmlClipboard:
         "EndHTML:(\d+)\s+" \
         "StartFragment:(\d+)\s+" \
         "EndFragment:(\d+)\s+" \
-           "SourceURL:(\S+)"
+        "SourceURL:(\S+)"
     MARKER_BLOCK_RE = re.compile(MARKER_BLOCK)
 
     DEFAULT_HTML_BODY = \

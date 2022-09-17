@@ -1,6 +1,6 @@
 BODY {
-	BACKGROUND-COLOR: #F9F5E9;
-	COLOR           : #121212;
+	BACKGROUND-COLOR: #263238;
+	COLOR           : #cccccc;
 	FONT-FAMILY     : TimesTenLTStd-Roman;
 	FONT-SIZE       : 13pt;
 	font-weight		: 700;
@@ -43,10 +43,11 @@ code {
 	FONT-FAMILY:consolas;
 }
 .Cloze {
-	BACKGROUND-COLOR:#F7ED4E;
-	COLOR:#FF0000;
-	FONT-WEIGHT:bold;
-	LETTER-SPACING:5px;
+	/* BACKGROUND-COLOR:#F7ED4E;
+	COLOR:#FF0000; */
+	color: #ffffff;
+	FONT-WEIGHT:900;
+	/* LETTER-SPACING:5px; */
 	margin:4px;
 }
 .clozed {
@@ -143,10 +144,20 @@ img.origin_image {
 	FONT-STYLE:italic;
 }
 .field {
-	border: 1px solid #273033;
+	border: 1px solid #cccccc;
 	/* color: #fff; */
 	/* background-color: #434F51; */
 	font-family: Consolas,Monaco,Courier New,monospace;
 	line-height: 1;
 	padding: 2px 4px;
+}
+.footer {
+	color: #888888; 
+	font-family: Consolas,Monaco,Courier New,monospace;
+	font-size: 0.7em;
+	line-height:100%
+	/* margin-top:10px; */
+}
+.customCloze {
+	color: #eeeeee;
 }
