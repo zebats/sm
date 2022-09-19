@@ -5,9 +5,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Include WinClipAPI.ahk
 #Include WinClip.ahk
 
-^r::
-    Send {Click}lu
-return
+; ^r::
+;     Send {Click}lu
+; return
+
+:o:/delta::δ
+:o:/left::→
+:o:/theta::θ
 
 ;field
 ::/f::
@@ -24,7 +28,7 @@ Return
 #IfWinActive, ahk_exe code.exe
 !a::
     Send ^{End}
-    Send {Text}Q: <SPAN class=field>翻译</SPAN>
+    Send {Text}Q: <SPAN class=field>高数</SPAN>
     Send {Space}
     Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Character:1<BR>&nbsp;&nbsp;&nbsp; Date:2022/9/14</DIV>
     Send {Space}{Enter}
@@ -41,3 +45,5 @@ Return
 Tab::
     Send {Down}{End}
 Return
+
+!s::Send <sub><sup>{Left 5}

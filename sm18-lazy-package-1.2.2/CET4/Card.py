@@ -142,7 +142,7 @@ for key in dic: #选词
                             f.write(f'Q: {sentence[n][0].replace(i,f"<a style={oneCharacter}display:none{oneCharacter}>.</a><b><u>{i}</u></b><a style={oneCharacter}display:none{oneCharacter}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {meanings[int(an)][0]}<BR><DIV class=footer><BR>-------------------<BR>{transWrite}</DIV>\n<hr>\n\n')
                             meanings.pop(int(an))
                         else:
-                            f.write(f'Q: {sentence[n][0].replace(i,f"<a style={oneCharacter}display:none{oneCharacter}>.</a><b><u>{i}</u></b><a style={oneCharacter}display:none{oneCharacter}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {transWrite}<BR><DIV class=footer><BR>-------------------<BR>{trans[1]}</DIV>\n<hr>\n\n')
+                            f.write(f'Q: {sentence[n][0].replace(i,f"<a style={oneCharacter}display:none{oneCharacter}>.</a><b><u>{i}</u></b><a style={oneCharacter}display:none{oneCharacter}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {trans[0]}<BR><DIV class=footer><BR>-------------------<BR>{transWrite}</DIV>\n<hr>\n\n')
                     with open('dic.txt','r') as f:
                         temptempdic=json.loads(f.read())
                     for j in tempdic:
