@@ -9,9 +9,31 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;     Send {Click}lu
 ; return
 
-:o:/delta::δ
-:o:/left::→
-:o:/theta::θ
+^r::
+    Reload
+Return
+
+; ::/aa::aaaa
+
+:o?:/delta::δ
+:o?:/left::→
+:o?:/theta::θ
+:o?:/la::
+    Send {Text}<SPAN class=latex>[$][/$]</SPAN>
+    Send {Left 11}
+Return
+:o?:/fr::\frac{{}{}}{{}{}}{Left 3}
+:o?:/over::\overset{{}{}}{{}{}}{Left 3}
+:o?:/lim::\lim_{{}{}}{Left}x \to{Space}
+:o?:/inf::\infty
+;这个好像会被vscode吞了
+:o?:/Delta::\Delta
+:o?:/fx::f(x)
+:o?:/...::[...]
+:o?:/>::&gt;
+:o?:/<::&lt;
+:o?:/dot::·
+:o?:/+-::±
 
 ;field
 ::/f::
@@ -27,23 +49,53 @@ Return
 ;新建卡
 #IfWinActive, ahk_exe code.exe
 !a::
+    FormatTime, DateNow , , yyyy/M/d hh:mm:ss
     Send ^{End}
+    ; Send {Text}Q: <SPAN class=field>组胚</SPAN>
     Send {Text}Q: <SPAN class=field>高数</SPAN>
+    ; Send {Text}Q: <SPAN class=field>基化</SPAN>
+    ; Send {Text}Q: <SPAN class=field>近代史</SPAN>
+    ; Send {Text}Q: <SPAN class=field>德法</SPAN>
     Send {Space}
-    Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Character:1<BR>&nbsp;&nbsp;&nbsp; Date:2022/9/14</DIV>
+    Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Chapter:2<BR>&nbsp;&nbsp;&nbsp; Date:%DateNow%</DIV>
     Send {Space}{Enter}
     ;如果有开自动补全就会多个tab
-    ;Send {BackSpace}
+    ; Send {BackSpace}
     Send {Text}A:
     Send {Space}{Enter}
     Send {Text}<hr>
     Send {Enter 2}{Up 4}{Right 31}
+    ;有展开的话不注释下面这行
+    ; Send {Up}{Right 2}
+Return
+!x::
+    RunWait, img2base64.py
+    Send ^v
 Return
 
+#IfWinActive, ● new.htm - Visual Studio 
 ; 从Q区切换到A区
-#IfWinActive, ● new.htm - Visual Studio Code
-Tab::
-    Send {Down}{End}
+Tab::Send {Down}{End}
+:o?:br::{Text}<BR>
+!s::
+    Send {Text}<SUB></SUB>
+    Send {Left 6}
+Return
+!w::
+    Send {Text}<SUP></SUP>
+    Send {Left 6}
 Return
 
-!s::Send <sub><sup>{Left 5}
+
+#IfWinActive, new.htm - Visual Studio 
+; 从Q区切换到A区
+Tab::Send {Down}{End}
+:o?:br::{Text}<BR>
+!s::
+    Send {Text}<SUB></SUB>
+    Send {Left 6}
+Return
+!w::
+    Send {Text}<SUP></SUP>
+    Send {Left 6}
+Return

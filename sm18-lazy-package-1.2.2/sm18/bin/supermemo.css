@@ -161,3 +161,8 @@ img.origin_image {
 .customCloze {
 	color: #eeeeee;
 }
+
+.latex {
+	padding: 2px;
+	background-color: white;
+}

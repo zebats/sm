@@ -143,6 +143,7 @@ for key in dic: #选词
                             meanings.pop(int(an))
                         else:
                             f.write(f'Q: {sentence[n][0].replace(i,f"<a style={oneCharacter}display:none{oneCharacter}>.</a><b><u>{i}</u></b><a style={oneCharacter}display:none{oneCharacter}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {trans[0]}<BR><DIV class=footer><BR>-------------------<BR>{transWrite}</DIV>\n<hr>\n\n')
+                    #这段是为了在写入的过程中不影响程序运行后手动对dic.txt的修改，但是逻辑有点问题，上面的case4的保存也需要修改
                     with open('dic.txt','r') as f:
                         temptempdic=json.loads(f.read())
                     for j in tempdic:
