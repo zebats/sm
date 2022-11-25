@@ -51,11 +51,11 @@ code {
 	margin:4px;
 }
 .clozed {
-	BACKGROUND-COLOR:#FFD499;
+	BACKGROUND-COLOR:rgb(139, 89, 19);
 	FONT-WEIGHT:bold;
 }
 .Extract {
-	BACKGROUND-COLOR:#A7D6F1;
+	BACKGROUND-COLOR:#324e5c;
 }
 .Headers {
 	BACKGROUND-COLOR:#968CC6;
@@ -166,3 +166,6 @@ img.origin_image {
 	padding: 2px;
 	background-color: white;
 }
+
+
+
