@@ -13,6 +13,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Run, formatReadingMetrial.pyw
 Return
 
+#IfWinActive, ahk_exe POWERPNT.EXE
+^c::
+    Send, ^c
+    Run, removeFormat.pyw
+Return
+
 ; #IfWinActive, ahk_exe sm18.exe
 ; ^v::
 ;     Send ^v

@@ -14,12 +14,18 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;     }
 ; Return
 
+
+
 ; ^r::
 ;     Send {Click}lu
 ; return
 
 ^r::
     Reload
+Return
+
+CapsLock::
+    Send {BackSpace}
 Return
 
 ; ::/aa::aaaa
@@ -63,14 +69,14 @@ Return
 !a::
     FormatTime, DateNow , , yyyy/M/d hh:mm:ss
     Send ^{End}
-    Send {Text}Q: <SPAN class=field>组胚</SPAN>
-    ; Send {Text}Q: <SPAN class=field>高数</SPAN>
+    ; Send {Text}Q: <SPAN class=field>组胚</SPAN>
+    Send {Text}Q: <SPAN class=field>高数</SPAN>
     ; Send {Text}Q: <SPAN class=field>基化</SPAN>
     ; Send {Text}Q: <SPAN class=field>近代史</SPAN>
     ; Send {Text}Q: <SPAN class=field>德法</SPAN>
     ; Send {Text}Q: <SPAN class=field>英语</SPAN>
     Send {Space}
-    Send {Text}怎么找<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Chapter:*<BR>&nbsp;&nbsp;&nbsp; Date:%DateNow%</DIV>
+    Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Chapter:10<BR>&nbsp;&nbsp;&nbsp; Date:%DateNow%</DIV>
     Send {Space}{Enter}
     ;如果有开自动补全就会多个tab
     ; Send {BackSpace}
@@ -98,6 +104,17 @@ Return
     Send  ^d{Enter}{Enter}
 Return
 
+MButton::
+    Send !z
+
+
+^q::
+    Send ^a^+1
+Return
+
+!l::
+    Send ^!l
+Return
 #IfWinActive, ● new.htm - Visual Studio 
 ; 从Q区切换到A区
 Tab::Send {Down}{End}
@@ -110,7 +127,6 @@ Return
     Send {Text}<SUP></SUP>
     Send {Left 6}
 Return
-
 
 #IfWinActive, new.htm - Visual Studio 
 ; 从Q区切换到A区
