@@ -1,3 +1,3 @@
 import pyperclip
-
-pyperclip.copy(pyperclip.paste())
+import re
+pyperclip.copy(re.sub(r'\s','',pyperclip.paste()))

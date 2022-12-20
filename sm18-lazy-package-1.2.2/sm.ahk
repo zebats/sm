@@ -5,6 +5,27 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Include WinClipAPI.ahk
 #Include WinClip.ahk
 
+AddNew(){
+    FormatTime, DateNow , , yyyy/M/d hh:mm:ss
+    Send ^{End}
+    Send {Text}Q: <SPAN class=field>组胚</SPAN>
+    ; Send {Text}Q: <SPAN class=field>高数</SPAN>
+    ; Send {Text}Q: <SPAN class=field>基化</SPAN>
+    ; Send {Text}Q: <SPAN class=field>近代史</SPAN>
+    ; Send {Text}Q: <SPAN class=field>德法</SPAN>
+    ; Send {Text}Q: <SPAN class=field>英语</SPAN>
+    Send {Space}
+    Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Chapter:14<BR>&nbsp;&nbsp;&nbsp; Date:%DateNow%</DIV>
+    Send {Space}{Enter}
+    ;如果有开自动补全就会多个tab
+    ; Send {BackSpace}
+    Send {Text}A:
+    Send {Space}{Enter}
+    Send {Text}<hr>
+    Send {Enter 2}{Up 4}{Right 31}
+    ;有展开的话不注释下面这行
+    ; Send {Up}{Right 2}
+}
 ; count:=1
 ; ^q::
 ;     while (count<131){
@@ -67,25 +88,7 @@ Return
 ;新建卡
 #IfWinActive, ahk_exe code.exe
 !a::
-    FormatTime, DateNow , , yyyy/M/d hh:mm:ss
-    Send ^{End}
-    ; Send {Text}Q: <SPAN class=field>组胚</SPAN>
-    Send {Text}Q: <SPAN class=field>高数</SPAN>
-    ; Send {Text}Q: <SPAN class=field>基化</SPAN>
-    ; Send {Text}Q: <SPAN class=field>近代史</SPAN>
-    ; Send {Text}Q: <SPAN class=field>德法</SPAN>
-    ; Send {Text}Q: <SPAN class=field>英语</SPAN>
-    Send {Space}
-    Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Chapter:10<BR>&nbsp;&nbsp;&nbsp; Date:%DateNow%</DIV>
-    Send {Space}{Enter}
-    ;如果有开自动补全就会多个tab
-    ; Send {BackSpace}
-    Send {Text}A:
-    Send {Space}{Enter}
-    Send {Text}<hr>
-    Send {Enter 2}{Up 4}{Right 31}
-    ;有展开的话不注释下面这行
-    ; Send {Up}{Right 2}
+    AddNew()
 Return
 
 !x::
@@ -113,7 +116,7 @@ MButton::
 Return
 
 !l::
-    Send ^!l
+    Send ^!l    
 Return
 #IfWinActive, ● new.htm - Visual Studio 
 ; 从Q区切换到A区
@@ -127,6 +130,41 @@ Return
     Send {Text}<SUP></SUP>
     Send {Left 6}
 Return
+!z::
+    c:=Clipboard
+    Clipboard:=
+    Send ^x
+    ClipWait 
+    Send {Text}<SPAN class=cloze>[...]</SPAN>
+    Send {Down}%Clipboard%{Esc}
+    Clipboard:=c
+Return
+!^s::
+    c:=Clipboard
+    Clipboard:=
+    Send ^c
+    ClipWait
+    temple=%Clipboard%
+    Clipboard:=c
+Return
+!+s::
+    AddNew()
+    Send %temple%
+Return
+^!c::
+    Send ^s
+    ; c:=Clipboard
+    Send ^a
+    Sleep, 200
+    Clipboard:=
+    Send ^c
+    ClipWait
+    RunWait, duplicate.pyw
+    Send {Right}
+    Send ^v
+    Sleep 200
+    ; Clipboard:=c
+Return
 
 #IfWinActive, new.htm - Visual Studio 
 ; 从Q区切换到A区
@@ -139,4 +177,37 @@ Return
 !w::
     Send {Text}<SUP></SUP>
     Send {Left 6}
+Return
+!z::
+    ; c:=Clipboard
+    Send ^x
+    Send {Text}<SPAN class=cloze>[...]</SPAN>
+    Send {Down}^v{Esc}
+    ; Clipboard:=c
+Return
+!^s::
+    c:=Clipboard
+    Clipboard:=
+    Send ^c
+    ClipWait
+    temple=%Clipboard%
+    Clipboard:=c
+Return
+!+s::
+    AddNew()
+    Send %temple%
+Return
+^!c::
+    Send ^s
+    ; c:=Clipboard
+    Send ^a
+    Sleep, 200
+    Clipboard:=
+    Send ^c
+    ClipWait
+    RunWait, duplicate.pyw
+    Send {Right}
+    Send ^v
+    Sleep 200
+    ; Clipboard:=c
 Return

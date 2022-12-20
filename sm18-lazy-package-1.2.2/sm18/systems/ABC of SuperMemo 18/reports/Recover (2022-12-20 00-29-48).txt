@@ -1,0 +1,905 @@
+SuperMemo Report
+   Activity: Checking the integrity of the collection
+   Collection: c:\sm18\sm\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
+   Date: Tuesday, December 20, 2022, 12:29:48 AM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+Checking 5,871 element records (ElementInfo.dat)
+Verifying integrity of element data (5871 elements in ElementInfo.dat)
+++++++++++++++++++++++    ERROR #1   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #626
+++++++++++++++++++++++    ERROR #2   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #972
+++++++++++++++++++++++    ERROR #3   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #1066
+++++++++++++++++++++++    ERROR #4   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #1625
+++++++++++++++++++++++    ERROR #5   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #2111
+++++++++++++++++++++++    ERROR #6   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #3903
+++++++++++++++++++++++    ERROR #7   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #3904
+++++++++++++++++++++++    ERROR #8   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #4201
+++++++++++++++++++++++    ERROR #9   ++++++++++++++++++++++
+   Non-zero parameters in a dismissed item #4301
+++++++++++++++++++++++    ERROR #10   ++++++++++++++++++++++
+   Wrong date of the next repetition at item #4356
+   Expected: 12/13/2022
+   Found: 6/9/2022
+++++++++++++++++++++++    ERROR #11   ++++++++++++++++++++++
+   Element #4356 missing from the outstanding queue
+++++++++++++++++++++++    ERROR #12   ++++++++++++++++++++++
+   Topic #4356 missing from the outstanding queue
+++++++++++++++++++++++    ERROR #13   ++++++++++++++++++++++
+   Wrong pending element count
+   Expected: 1
+   Found:    0
+Verifying knowledge tree (5,871 elements in Contents.dat)
+431 children at Topic #4,994: Text File Import (Dec 14, 2022, Wed, 23:07) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\0archived new\1组胚\new0.htm
+824 children at Topic #4,256: Text File Import (Dec 16, 2022, Fri, 19:52) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\1组胚\new.htm
+1077 children at Topic #4,512: Text File Import (Dec 19, 2022, Mon, 00:12) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\1组胚\new.htm
+420 children at Topic #2,444: CET4
+352 children at Topic #1,796: no sounds
+++++++++++++++++++++++    ERROR #14   ++++++++++++++++++++++
+   Invalid last child's sibling. Child=3121
+   Next sibling=3188
+++++++++++++++++++++++    ERROR #15   ++++++++++++++++++++++
+   Wrong children count at Topic #532: 3.关节软骨 关节软骨(articular cartilage)为被覆于骨的关节面的薄层透明软骨，无软骨膜，其表面光滑，附有滑液，具有弹性，可减少关节运动时的摩擦，关节软骨的结构与一般的透明软骨有一定差异。成人的关节软骨厚 2 ~5mm，由浅到深可分为4区。①表面区(superficial zone )：又称切线区 (tangential .
+   Found=0
+   Reported=-1
+++++++++++++++++++++++    ERROR #16   ++++++++++++++++++++++
+   Wrong descendant count at Topic #532: 3.关节软骨 关节软骨(articular cartilage)为被覆于骨的关节面的薄层透明软骨，无软骨膜，其表面光滑，附有滑液，具有弹性，可减少关节运动时的摩擦，关节软骨的结构与一般的透明软骨有一定差异。成人的关节软骨厚 2 ~5mm，由浅到深可分为4区。①表面区(superficial zone )：又称切线区 (tangential .
+   Found=0
+   Reported=-1
+++++++++++++++++++++++    ERROR #17   ++++++++++++++++++++++
+   Wrong element count in the branch #532
+125 children at Topic #695: 组织学与胚胎学
+220 children at Topic #530: 基化
+Reviewing children and descendant counts due to errors in the tree structure
+431 children at Topic #4,994: Text File Import (Dec 14, 2022, Wed, 23:07) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\0archived new\1组胚\new0.htm
+748 children at Topic #4,256: Text File Import (Dec 16, 2022, Fri, 19:52) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\1组胚\new.htm
+++++++++++++++++++++++    ERROR #18   ++++++++++++++++++++++
+   Wrong children count at Topic #4,256: Text File Import (Dec 16, 2022, Fri, 19:52) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\1组胚\new.htm
+   Found=748
+   Reported=824
+++++++++++++++++++++++    ERROR #19   ++++++++++++++++++++++
+   Wrong descendant count at Topic #4,256: Text File Import (Dec 16, 2022, Fri, 19:52) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\1组胚\new.htm
+   Found=748
+   Reported=824
+++++++++++++++++++++++    ERROR #20   ++++++++++++++++++++++
+   Wrong element count in the branch #4256
+1077 children at Topic #4,512: Text File Import (Dec 19, 2022, Mon, 00:12) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\new\1组胚\new.htm
+420 children at Topic #2,444: CET4
+352 children at Topic #1,796: no sounds
+125 children at Topic #695: 组织学与胚胎学
+220 children at Topic #530: 基化
+Verifying the priority queue of 5,465 elements
+++++++++++++++++++++++    ERROR #21   ++++++++++++++++++++++
+   Element #77 missing from the priority queue
+++++++++++++++++++++++    ERROR #22   ++++++++++++++++++++++
+   Element #136 missing from the priority queue
+++++++++++++++++++++++    ERROR #23   ++++++++++++++++++++++
+   Element #147 missing from the priority queue
+++++++++++++++++++++++    ERROR #24   ++++++++++++++++++++++
+   Element #179 missing from the priority queue
+++++++++++++++++++++++    ERROR #25   ++++++++++++++++++++++
+   Element #181 missing from the priority queue
+++++++++++++++++++++++    ERROR #26   ++++++++++++++++++++++
+   Element #194 missing from the priority queue
+++++++++++++++++++++++    ERROR #27   ++++++++++++++++++++++
+   Element #206 missing from the priority queue
+++++++++++++++++++++++    ERROR #28   ++++++++++++++++++++++
+   Element #230 missing from the priority queue
+++++++++++++++++++++++    ERROR #29   ++++++++++++++++++++++
+   Element #232 missing from the priority queue
+++++++++++++++++++++++    ERROR #30   ++++++++++++++++++++++
+   Element #253 missing from the priority queue
+++++++++++++++++++++++    ERROR #31   ++++++++++++++++++++++
+   Element #260 missing from the priority queue
+++++++++++++++++++++++    ERROR #32   ++++++++++++++++++++++
+   Element #264 missing from the priority queue
+++++++++++++++++++++++    ERROR #33   ++++++++++++++++++++++
+   Element #265 missing from the priority queue
+++++++++++++++++++++++    ERROR #34   ++++++++++++++++++++++
+   Element #268 missing from the priority queue
+++++++++++++++++++++++    ERROR #35   ++++++++++++++++++++++
+   Element #307 missing from the priority queue
+++++++++++++++++++++++    ERROR #36   ++++++++++++++++++++++
+   Element #345 missing from the priority queue
+++++++++++++++++++++++    ERROR #37   ++++++++++++++++++++++
+   Element #391 missing from the priority queue
+++++++++++++++++++++++    ERROR #38   ++++++++++++++++++++++
+   Element #410 missing from the priority queue
+++++++++++++++++++++++    ERROR #39   ++++++++++++++++++++++
+   Element #428 missing from the priority queue
+++++++++++++++++++++++    ERROR #40   ++++++++++++++++++++++
+   Element #434 missing from the priority queue
+++++++++++++++++++++++    ERROR #41   ++++++++++++++++++++++
+   Element #439 missing from the priority queue
+++++++++++++++++++++++    ERROR #42   ++++++++++++++++++++++
+   Element #445 missing from the priority queue
+++++++++++++++++++++++    ERROR #43   ++++++++++++++++++++++
+   Element #456 missing from the priority queue
+++++++++++++++++++++++    ERROR #44   ++++++++++++++++++++++
+   Element #458 missing from the priority queue
+++++++++++++++++++++++    ERROR #45   ++++++++++++++++++++++
+   Element #471 missing from the priority queue
+++++++++++++++++++++++    ERROR #46   ++++++++++++++++++++++
+   Element #490 missing from the priority queue
+++++++++++++++++++++++    ERROR #47   ++++++++++++++++++++++
+   Element #534 missing from the priority queue
+++++++++++++++++++++++    ERROR #48   ++++++++++++++++++++++
+   Element #538 missing from the priority queue
+++++++++++++++++++++++    ERROR #49   ++++++++++++++++++++++
+   Element #541 missing from the priority queue
+++++++++++++++++++++++    ERROR #50   ++++++++++++++++++++++
+   Element #545 missing from the priority queue
+++++++++++++++++++++++    ERROR #51   ++++++++++++++++++++++
+   Element #576 missing from the priority queue
+++++++++++++++++++++++    ERROR #52   ++++++++++++++++++++++
+   Element #585 missing from the priority queue
+++++++++++++++++++++++    ERROR #53   ++++++++++++++++++++++
+   Element #589 missing from the priority queue
+++++++++++++++++++++++    ERROR #54   ++++++++++++++++++++++
+   Element #620 missing from the priority queue
+++++++++++++++++++++++    ERROR #55   ++++++++++++++++++++++
+   Element #633 missing from the priority queue
+++++++++++++++++++++++    ERROR #56   ++++++++++++++++++++++
+   Element #678 missing from the priority queue
+++++++++++++++++++++++    ERROR #57   ++++++++++++++++++++++
+   Element #682 missing from the priority queue
+++++++++++++++++++++++    ERROR #58   ++++++++++++++++++++++
+   Element #713 missing from the priority queue
+++++++++++++++++++++++    ERROR #59   ++++++++++++++++++++++
+   Element #732 missing from the priority queue
+++++++++++++++++++++++    ERROR #60   ++++++++++++++++++++++
+   Element #786 missing from the priority queue
+++++++++++++++++++++++    ERROR #61   ++++++++++++++++++++++
+   Element #798 missing from the priority queue
+++++++++++++++++++++++    ERROR #62   ++++++++++++++++++++++
+   Element #812 missing from the priority queue
+++++++++++++++++++++++    ERROR #63   ++++++++++++++++++++++
+   Element #825 missing from the priority queue
+++++++++++++++++++++++    ERROR #64   ++++++++++++++++++++++
+   Element #827 missing from the priority queue
+++++++++++++++++++++++    ERROR #65   ++++++++++++++++++++++
+   Element #832 missing from the priority queue
+++++++++++++++++++++++    ERROR #66   ++++++++++++++++++++++
+   Element #845 missing from the priority queue
+++++++++++++++++++++++    ERROR #67   ++++++++++++++++++++++
+   Element #893 missing from the priority queue
+++++++++++++++++++++++    ERROR #68   ++++++++++++++++++++++
+   Element #946 missing from the priority queue
+++++++++++++++++++++++    ERROR #69   ++++++++++++++++++++++
+   Element #955 missing from the priority queue
+++++++++++++++++++++++    ERROR #70   ++++++++++++++++++++++
+   Element #1007 missing from the priority queue
+++++++++++++++++++++++    ERROR #71   ++++++++++++++++++++++
+   Element #1028 missing from the priority queue
+++++++++++++++++++++++    ERROR #72   ++++++++++++++++++++++
+   Element #1080 missing from the priority queue
+++++++++++++++++++++++    ERROR #73   ++++++++++++++++++++++
+   Element #1082 missing from the priority queue
+++++++++++++++++++++++    ERROR #74   ++++++++++++++++++++++
+   Element #1117 missing from the priority queue
+++++++++++++++++++++++    ERROR #75   ++++++++++++++++++++++
+   Element #1151 missing from the priority queue
+++++++++++++++++++++++    ERROR #76   ++++++++++++++++++++++
+   Element #1155 missing from the priority queue
+++++++++++++++++++++++    ERROR #77   ++++++++++++++++++++++
+   Element #1210 missing from the priority queue
+++++++++++++++++++++++    ERROR #78   ++++++++++++++++++++++
+   Element #1216 missing from the priority queue
+++++++++++++++++++++++    ERROR #79   ++++++++++++++++++++++
+   Element #1219 missing from the priority queue
+++++++++++++++++++++++    ERROR #80   ++++++++++++++++++++++
+   Element #1224 missing from the priority queue
+++++++++++++++++++++++    ERROR #81   ++++++++++++++++++++++
+   Element #1247 missing from the priority queue
+++++++++++++++++++++++    ERROR #82   ++++++++++++++++++++++
+   Element #1280 missing from the priority queue
+++++++++++++++++++++++    ERROR #83   ++++++++++++++++++++++
+   Element #1289 missing from the priority queue
+++++++++++++++++++++++    ERROR #84   ++++++++++++++++++++++
+   Element #1323 missing from the priority queue
+++++++++++++++++++++++    ERROR #85   ++++++++++++++++++++++
+   Element #1325 missing from the priority queue
+++++++++++++++++++++++    ERROR #86   ++++++++++++++++++++++
+   Element #1343 missing from the priority queue
+++++++++++++++++++++++    ERROR #87   ++++++++++++++++++++++
+   Element #1370 missing from the priority queue
+++++++++++++++++++++++    ERROR #88   ++++++++++++++++++++++
+   Element #1372 missing from the priority queue
+++++++++++++++++++++++    ERROR #89   ++++++++++++++++++++++
+   Element #1404 missing from the priority queue
+++++++++++++++++++++++    ERROR #90   ++++++++++++++++++++++
+   Element #1448 missing from the priority queue
+++++++++++++++++++++++    ERROR #91   ++++++++++++++++++++++
+   Element #1452 missing from the priority queue
+++++++++++++++++++++++    ERROR #92   ++++++++++++++++++++++
+   Element #1484 missing from the priority queue
+++++++++++++++++++++++    ERROR #93   ++++++++++++++++++++++
+   Element #1527 missing from the priority queue
+++++++++++++++++++++++    ERROR #94   ++++++++++++++++++++++
+   Element #1534 missing from the priority queue
+++++++++++++++++++++++    ERROR #95   ++++++++++++++++++++++
+   Element #1543 missing from the priority queue
+++++++++++++++++++++++    ERROR #96   ++++++++++++++++++++++
+   Element #1544 missing from the priority queue
+++++++++++++++++++++++    ERROR #97   ++++++++++++++++++++++
+   Element #1548 missing from the priority queue
+++++++++++++++++++++++    ERROR #98   ++++++++++++++++++++++
+   Element #1562 missing from the priority queue
+++++++++++++++++++++++    ERROR #99   ++++++++++++++++++++++
+   Element #1593 missing from the priority queue
+++++++++++++++++++++++    ERROR #100   ++++++++++++++++++++++
+   Element #1622 missing from the priority queue
+++++++++++++++++++++++    ERROR #101   ++++++++++++++++++++++
+   Element #1630 missing from the priority queue
+++++++++++++++++++++++    ERROR #102   ++++++++++++++++++++++
+   Element #1686 missing from the priority queue
+++++++++++++++++++++++    ERROR #103   ++++++++++++++++++++++
+   Element #1702 missing from the priority queue
+++++++++++++++++++++++    ERROR #104   ++++++++++++++++++++++
+   Element #1724 missing from the priority queue
+++++++++++++++++++++++    ERROR #105   ++++++++++++++++++++++
+   Element #1726 missing from the priority queue
+++++++++++++++++++++++    ERROR #106   ++++++++++++++++++++++
+   Element #1728 missing from the priority queue
+++++++++++++++++++++++    ERROR #107   ++++++++++++++++++++++
+   Element #1785 missing from the priority queue
+++++++++++++++++++++++    ERROR #108   ++++++++++++++++++++++
+   Element #1797 missing from the priority queue
+++++++++++++++++++++++    ERROR #109   ++++++++++++++++++++++
+   Element #1799 missing from the priority queue
+++++++++++++++++++++++    ERROR #110   ++++++++++++++++++++++
+   Element #1803 missing from the priority queue
+++++++++++++++++++++++    ERROR #111   ++++++++++++++++++++++
+   Element #1806 missing from the priority queue
+++++++++++++++++++++++    ERROR #112   ++++++++++++++++++++++
+   Element #1817 missing from the priority queue
+++++++++++++++++++++++    ERROR #113   ++++++++++++++++++++++
+   Element #1837 missing from the priority queue
+++++++++++++++++++++++    ERROR #114   ++++++++++++++++++++++
+   Element #1853 missing from the priority queue
+++++++++++++++++++++++    ERROR #115   ++++++++++++++++++++++
+   Element #1859 missing from the priority queue
+++++++++++++++++++++++    ERROR #116   ++++++++++++++++++++++
+   Element #1861 missing from the priority queue
+++++++++++++++++++++++    ERROR #117   ++++++++++++++++++++++
+   Element #1890 missing from the priority queue
+++++++++++++++++++++++    ERROR #118   ++++++++++++++++++++++
+   Element #1896 missing from the priority queue
+++++++++++++++++++++++    ERROR #119   ++++++++++++++++++++++
+   Element #1899 missing from the priority queue
+++++++++++++++++++++++    ERROR #120   ++++++++++++++++++++++
+   Element #1931 missing from the priority queue
+++++++++++++++++++++++    ERROR #121   ++++++++++++++++++++++
+   Element #1949 missing from the priority queue
+++++++++++++++++++++++    ERROR #122   ++++++++++++++++++++++
+   Element #1960 missing from the priority queue
+++++++++++++++++++++++    ERROR #123   ++++++++++++++++++++++
+   Element #1970 missing from the priority queue
+++++++++++++++++++++++    ERROR #124   ++++++++++++++++++++++
+   Element #1973 missing from the priority queue
+++++++++++++++++++++++    ERROR #125   ++++++++++++++++++++++
+   Element #1983 missing from the priority queue
+++++++++++++++++++++++    ERROR #126   ++++++++++++++++++++++
+   Element #2023 missing from the priority queue
+++++++++++++++++++++++    ERROR #127   ++++++++++++++++++++++
+   Element #2058 missing from the priority queue
+++++++++++++++++++++++    ERROR #128   ++++++++++++++++++++++
+   Element #2075 missing from the priority queue
+++++++++++++++++++++++    ERROR #129   ++++++++++++++++++++++
+   Element #2118 missing from the priority queue
+++++++++++++++++++++++    ERROR #130   ++++++++++++++++++++++
+   Element #2137 missing from the priority queue
+++++++++++++++++++++++    ERROR #131   ++++++++++++++++++++++
+   Element #2154 missing from the priority queue
+++++++++++++++++++++++    ERROR #132   ++++++++++++++++++++++
+   Element #2158 missing from the priority queue
+++++++++++++++++++++++    ERROR #133   ++++++++++++++++++++++
+   Element #2159 missing from the priority queue
+++++++++++++++++++++++    ERROR #134   ++++++++++++++++++++++
+   Element #2165 missing from the priority queue
+++++++++++++++++++++++    ERROR #135   ++++++++++++++++++++++
+   Element #2172 missing from the priority queue
+++++++++++++++++++++++    ERROR #136   ++++++++++++++++++++++
+   Element #2184 missing from the priority queue
+++++++++++++++++++++++    ERROR #137   ++++++++++++++++++++++
+   Element #2205 missing from the priority queue
+++++++++++++++++++++++    ERROR #138   ++++++++++++++++++++++
+   Element #2219 missing from the priority queue
+++++++++++++++++++++++    ERROR #139   ++++++++++++++++++++++
+   Element #2233 missing from the priority queue
+++++++++++++++++++++++    ERROR #140   ++++++++++++++++++++++
+   Element #2249 missing from the priority queue
+++++++++++++++++++++++    ERROR #141   ++++++++++++++++++++++
+   Element #2257 missing from the priority queue
+++++++++++++++++++++++    ERROR #142   ++++++++++++++++++++++
+   Element #2267 missing from the priority queue
+++++++++++++++++++++++    ERROR #143   ++++++++++++++++++++++
+   Element #2278 missing from the priority queue
+++++++++++++++++++++++    ERROR #144   ++++++++++++++++++++++
+   Element #2299 missing from the priority queue
+++++++++++++++++++++++    ERROR #145   ++++++++++++++++++++++
+   Element #2307 missing from the priority queue
+++++++++++++++++++++++    ERROR #146   ++++++++++++++++++++++
+   Element #2395 missing from the priority queue
+++++++++++++++++++++++    ERROR #147   ++++++++++++++++++++++
+   Element #2403 missing from the priority queue
+++++++++++++++++++++++    ERROR #148   ++++++++++++++++++++++
+   Element #2415 missing from the priority queue
+++++++++++++++++++++++    ERROR #149   ++++++++++++++++++++++
+   Element #2435 missing from the priority queue
+++++++++++++++++++++++    ERROR #150   ++++++++++++++++++++++
+   Element #2441 missing from the priority queue
+++++++++++++++++++++++    ERROR #151   ++++++++++++++++++++++
+   Element #2485 missing from the priority queue
+++++++++++++++++++++++    ERROR #152   ++++++++++++++++++++++
+   Element #2527 missing from the priority queue
+++++++++++++++++++++++    ERROR #153   ++++++++++++++++++++++
+   Element #2529 missing from the priority queue
+++++++++++++++++++++++    ERROR #154   ++++++++++++++++++++++
+   Element #2559 missing from the priority queue
+++++++++++++++++++++++    ERROR #155   ++++++++++++++++++++++
+   Element #2571 missing from the priority queue
+++++++++++++++++++++++    ERROR #156   ++++++++++++++++++++++
+   Element #2583 missing from the priority queue
+++++++++++++++++++++++    ERROR #157   ++++++++++++++++++++++
+   Element #2606 missing from the priority queue
+++++++++++++++++++++++    ERROR #158   ++++++++++++++++++++++
+   Element #2614 missing from the priority queue
+++++++++++++++++++++++    ERROR #159   ++++++++++++++++++++++
+   Element #2626 missing from the priority queue
+++++++++++++++++++++++    ERROR #160   ++++++++++++++++++++++
+   Element #2635 missing from the priority queue
+++++++++++++++++++++++    ERROR #161   ++++++++++++++++++++++
+   Element #2657 missing from the priority queue
+++++++++++++++++++++++    ERROR #162   ++++++++++++++++++++++
+   Element #2658 missing from the priority queue
+++++++++++++++++++++++    ERROR #163   ++++++++++++++++++++++
+   Element #2707 missing from the priority queue
+++++++++++++++++++++++    ERROR #164   ++++++++++++++++++++++
+   Element #2716 missing from the priority queue
+++++++++++++++++++++++    ERROR #165   ++++++++++++++++++++++
+   Element #2740 missing from the priority queue
+++++++++++++++++++++++    ERROR #166   ++++++++++++++++++++++
+   Element #2779 missing from the priority queue
+++++++++++++++++++++++    ERROR #167   ++++++++++++++++++++++
+   Element #2808 missing from the priority queue
+++++++++++++++++++++++    ERROR #168   ++++++++++++++++++++++
+   Element #2837 missing from the priority queue
+++++++++++++++++++++++    ERROR #169   ++++++++++++++++++++++
+   Element #2856 missing from the priority queue
+++++++++++++++++++++++    ERROR #170   ++++++++++++++++++++++
+   Element #2868 missing from the priority queue
+++++++++++++++++++++++    ERROR #171   ++++++++++++++++++++++
+   Element #2884 missing from the priority queue
+++++++++++++++++++++++    ERROR #172   ++++++++++++++++++++++
+   Element #2891 missing from the priority queue
+++++++++++++++++++++++    ERROR #173   ++++++++++++++++++++++
+   Element #2896 missing from the priority queue
+++++++++++++++++++++++    ERROR #174   ++++++++++++++++++++++
+   Element #2918 missing from the priority queue
+++++++++++++++++++++++    ERROR #175   ++++++++++++++++++++++
+   Element #2953 missing from the priority queue
+++++++++++++++++++++++    ERROR #176   ++++++++++++++++++++++
+   Element #2962 missing from the priority queue
+++++++++++++++++++++++    ERROR #177   ++++++++++++++++++++++
+   Element #2976 missing from the priority queue
+++++++++++++++++++++++    ERROR #178   ++++++++++++++++++++++
+   Element #3006 missing from the priority queue
+++++++++++++++++++++++    ERROR #179   ++++++++++++++++++++++
+   Element #3009 missing from the priority queue
+++++++++++++++++++++++    ERROR #180   ++++++++++++++++++++++
+   Element #3017 missing from the priority queue
+++++++++++++++++++++++    ERROR #181   ++++++++++++++++++++++
+   Element #3020 missing from the priority queue
+++++++++++++++++++++++    ERROR #182   ++++++++++++++++++++++
+   Element #3030 missing from the priority queue
+++++++++++++++++++++++    ERROR #183   ++++++++++++++++++++++
+   Element #3049 missing from the priority queue
+++++++++++++++++++++++    ERROR #184   ++++++++++++++++++++++
+   Element #3054 missing from the priority queue
+++++++++++++++++++++++    ERROR #185   ++++++++++++++++++++++
+   Element #3073 missing from the priority queue
+++++++++++++++++++++++    ERROR #186   ++++++++++++++++++++++
+   Element #3081 missing from the priority queue
+++++++++++++++++++++++    ERROR #187   ++++++++++++++++++++++
+   Element #3092 missing from the priority queue
+++++++++++++++++++++++    ERROR #188   ++++++++++++++++++++++
+   Element #3107 missing from the priority queue
+++++++++++++++++++++++    ERROR #189   ++++++++++++++++++++++
+   Element #3111 missing from the priority queue
+++++++++++++++++++++++    ERROR #190   ++++++++++++++++++++++
+   Element #3114 missing from the priority queue
+++++++++++++++++++++++    ERROR #191   ++++++++++++++++++++++
+   Element #3117 missing from the priority queue
+++++++++++++++++++++++    ERROR #192   ++++++++++++++++++++++
+   Element #3143 missing from the priority queue
+++++++++++++++++++++++    ERROR #193   ++++++++++++++++++++++
+   Element #3145 missing from the priority queue
+++++++++++++++++++++++    ERROR #194   ++++++++++++++++++++++
+   Element #3191 missing from the priority queue
+++++++++++++++++++++++    ERROR #195   ++++++++++++++++++++++
+   Element #3206 missing from the priority queue
+++++++++++++++++++++++    ERROR #196   ++++++++++++++++++++++
+   Element #3220 missing from the priority queue
+++++++++++++++++++++++    ERROR #197   ++++++++++++++++++++++
+   Element #3227 missing from the priority queue
+++++++++++++++++++++++    ERROR #198   ++++++++++++++++++++++
+   Element #3231 missing from the priority queue
+++++++++++++++++++++++    ERROR #199   ++++++++++++++++++++++
+   Element #3232 missing from the priority queue
+++++++++++++++++++++++    ERROR #200   ++++++++++++++++++++++
+   Element #3233 missing from the priority queue
+++++++++++++++++++++++    ERROR #201   ++++++++++++++++++++++
+   Element #3253 missing from the priority queue
+++++++++++++++++++++++    ERROR #202   ++++++++++++++++++++++
+   Element #3294 missing from the priority queue
+++++++++++++++++++++++    ERROR #203   ++++++++++++++++++++++
+   Element #3312 missing from the priority queue
+++++++++++++++++++++++    ERROR #204   ++++++++++++++++++++++
+   Element #3329 missing from the priority queue
+++++++++++++++++++++++    ERROR #205   ++++++++++++++++++++++
+   Element #3332 missing from the priority queue
+++++++++++++++++++++++    ERROR #206   ++++++++++++++++++++++
+   Element #3349 missing from the priority queue
+++++++++++++++++++++++    ERROR #207   ++++++++++++++++++++++
+   Element #3353 missing from the priority queue
+++++++++++++++++++++++    ERROR #208   ++++++++++++++++++++++
+   Element #3433 missing from the priority queue
+++++++++++++++++++++++    ERROR #209   ++++++++++++++++++++++
+   Element #3450 missing from the priority queue
+++++++++++++++++++++++    ERROR #210   ++++++++++++++++++++++
+   Element #3505 missing from the priority queue
+++++++++++++++++++++++    ERROR #211   ++++++++++++++++++++++
+   Element #3570 missing from the priority queue
+++++++++++++++++++++++    ERROR #212   ++++++++++++++++++++++
+   Element #3571 missing from the priority queue
+++++++++++++++++++++++    ERROR #213   ++++++++++++++++++++++
+   Element #3588 missing from the priority queue
+++++++++++++++++++++++    ERROR #214   ++++++++++++++++++++++
+   Element #3589 missing from the priority queue
+++++++++++++++++++++++    ERROR #215   ++++++++++++++++++++++
+   Element #3590 missing from the priority queue
+++++++++++++++++++++++    ERROR #216   ++++++++++++++++++++++
+   Element #3600 missing from the priority queue
+++++++++++++++++++++++    ERROR #217   ++++++++++++++++++++++
+   Element #3623 missing from the priority queue
+++++++++++++++++++++++    ERROR #218   ++++++++++++++++++++++
+   Element #3624 missing from the priority queue
+++++++++++++++++++++++    ERROR #219   ++++++++++++++++++++++
+   Element #3633 missing from the priority queue
+++++++++++++++++++++++    ERROR #220   ++++++++++++++++++++++
+   Element #3643 missing from the priority queue
+++++++++++++++++++++++    ERROR #221   ++++++++++++++++++++++
+   Element #3645 missing from the priority queue
+++++++++++++++++++++++    ERROR #222   ++++++++++++++++++++++
+   Element #3652 missing from the priority queue
+++++++++++++++++++++++    ERROR #223   ++++++++++++++++++++++
+   Element #3655 missing from the priority queue
+++++++++++++++++++++++    ERROR #224   ++++++++++++++++++++++
+   Element #3666 missing from the priority queue
+++++++++++++++++++++++    ERROR #225   ++++++++++++++++++++++
+   Element #3673 missing from the priority queue
+++++++++++++++++++++++    ERROR #226   ++++++++++++++++++++++
+   Element #3674 missing from the priority queue
+++++++++++++++++++++++    ERROR #227   ++++++++++++++++++++++
+   Element #3690 missing from the priority queue
+++++++++++++++++++++++    ERROR #228   ++++++++++++++++++++++
+   Element #3692 missing from the priority queue
+++++++++++++++++++++++    ERROR #229   ++++++++++++++++++++++
+   Element #3694 missing from the priority queue
+++++++++++++++++++++++    ERROR #230   ++++++++++++++++++++++
+   Element #3742 missing from the priority queue
+++++++++++++++++++++++    ERROR #231   ++++++++++++++++++++++
+   Element #3762 missing from the priority queue
+++++++++++++++++++++++    ERROR #232   ++++++++++++++++++++++
+   Element #3768 missing from the priority queue
+++++++++++++++++++++++    ERROR #233   ++++++++++++++++++++++
+   Element #3774 missing from the priority queue
+++++++++++++++++++++++    ERROR #234   ++++++++++++++++++++++
+   Element #3777 missing from the priority queue
+++++++++++++++++++++++    ERROR #235   ++++++++++++++++++++++
+   Element #3778 missing from the priority queue
+++++++++++++++++++++++    ERROR #236   ++++++++++++++++++++++
+   Element #3780 missing from the priority queue
+++++++++++++++++++++++    ERROR #237   ++++++++++++++++++++++
+   Element #3781 missing from the priority queue
+++++++++++++++++++++++    ERROR #238   ++++++++++++++++++++++
+   Element #3784 missing from the priority queue
+++++++++++++++++++++++    ERROR #239   ++++++++++++++++++++++
+   Element #3788 missing from the priority queue
+++++++++++++++++++++++    ERROR #240   ++++++++++++++++++++++
+   Element #3790 missing from the priority queue
+++++++++++++++++++++++    ERROR #241   ++++++++++++++++++++++
+   Element #3798 missing from the priority queue
+++++++++++++++++++++++    ERROR #242   ++++++++++++++++++++++
+   Element #3804 missing from the priority queue
+++++++++++++++++++++++    ERROR #243   ++++++++++++++++++++++
+   Element #3805 missing from the priority queue
+++++++++++++++++++++++    ERROR #244   ++++++++++++++++++++++
+   Element #3808 missing from the priority queue
+++++++++++++++++++++++    ERROR #245   ++++++++++++++++++++++
+   Element #3809 missing from the priority queue
+++++++++++++++++++++++    ERROR #246   ++++++++++++++++++++++
+   Element #3814 missing from the priority queue
+++++++++++++++++++++++    ERROR #247   ++++++++++++++++++++++
+   Element #3824 missing from the priority queue
+++++++++++++++++++++++    ERROR #248   ++++++++++++++++++++++
+   Element #3825 missing from the priority queue
+++++++++++++++++++++++    ERROR #249   ++++++++++++++++++++++
+   Element #3832 missing from the priority queue
+++++++++++++++++++++++    ERROR #250   ++++++++++++++++++++++
+   Element #3836 missing from the priority queue
+++++++++++++++++++++++    ERROR #251   ++++++++++++++++++++++
+   Element #3839 missing from the priority queue
+++++++++++++++++++++++    ERROR #252   ++++++++++++++++++++++
+   Element #3842 missing from the priority queue
+++++++++++++++++++++++    ERROR #253   ++++++++++++++++++++++
+   Element #3844 missing from the priority queue
+++++++++++++++++++++++    ERROR #254   ++++++++++++++++++++++
+   Element #3854 missing from the priority queue
+++++++++++++++++++++++    ERROR #255   ++++++++++++++++++++++
+   Element #3856 missing from the priority queue
+++++++++++++++++++++++    ERROR #256   ++++++++++++++++++++++
+   Element #3858 missing from the priority queue
+++++++++++++++++++++++    ERROR #257   ++++++++++++++++++++++
+   Element #3859 missing from the priority queue
+++++++++++++++++++++++    ERROR #258   ++++++++++++++++++++++
+   Element #3861 missing from the priority queue
+++++++++++++++++++++++    ERROR #259   ++++++++++++++++++++++
+   Element #3867 missing from the priority queue
+++++++++++++++++++++++    ERROR #260   ++++++++++++++++++++++
+   Element #3868 missing from the priority queue
+++++++++++++++++++++++    ERROR #261   ++++++++++++++++++++++
+   Element #3872 missing from the priority queue
+++++++++++++++++++++++    ERROR #262   ++++++++++++++++++++++
+   Element #3878 missing from the priority queue
+++++++++++++++++++++++    ERROR #263   ++++++++++++++++++++++
+   Element #3889 missing from the priority queue
+++++++++++++++++++++++    ERROR #264   ++++++++++++++++++++++
+   Element #3892 missing from the priority queue
+++++++++++++++++++++++    ERROR #265   ++++++++++++++++++++++
+   Element #3901 missing from the priority queue
+++++++++++++++++++++++    ERROR #266   ++++++++++++++++++++++
+   Element #4072 missing from the priority queue
+++++++++++++++++++++++    ERROR #267   ++++++++++++++++++++++
+   Element #4073 missing from the priority queue
+++++++++++++++++++++++    ERROR #268   ++++++++++++++++++++++
+   Element #4075 missing from the priority queue
+++++++++++++++++++++++    ERROR #269   ++++++++++++++++++++++
+   Element #4077 missing from the priority queue
+++++++++++++++++++++++    ERROR #270   ++++++++++++++++++++++
+   Element #4086 missing from the priority queue
+++++++++++++++++++++++    ERROR #271   ++++++++++++++++++++++
+   Element #4097 missing from the priority queue
+++++++++++++++++++++++    ERROR #272   ++++++++++++++++++++++
+   Element #4100 missing from the priority queue
+++++++++++++++++++++++    ERROR #273   ++++++++++++++++++++++
+   Element #4225 missing from the priority queue
+++++++++++++++++++++++    ERROR #274   ++++++++++++++++++++++
+   Element #4250 missing from the priority queue
+++++++++++++++++++++++    ERROR #275   ++++++++++++++++++++++
+   Element #4257 missing from the priority queue
+++++++++++++++++++++++    ERROR #276   ++++++++++++++++++++++
+   Element #4258 missing from the priority queue
+++++++++++++++++++++++    ERROR #277   ++++++++++++++++++++++
+   Element #4263 missing from the priority queue
+++++++++++++++++++++++    ERROR #278   ++++++++++++++++++++++
+   Element #4278 missing from the priority queue
+++++++++++++++++++++++    ERROR #279   ++++++++++++++++++++++
+   Element #4281 missing from the priority queue
+++++++++++++++++++++++    ERROR #280   ++++++++++++++++++++++
+   Element #4282 missing from the priority queue
+++++++++++++++++++++++    ERROR #281   ++++++++++++++++++++++
+   Element #4336 missing from the priority queue
+++++++++++++++++++++++    ERROR #282   ++++++++++++++++++++++
+   Element #4337 missing from the priority queue
+++++++++++++++++++++++    ERROR #283   ++++++++++++++++++++++
+   Element #4339 missing from the priority queue
+++++++++++++++++++++++    ERROR #284   ++++++++++++++++++++++
+   Element #4348 missing from the priority queue
+++++++++++++++++++++++    ERROR #285   ++++++++++++++++++++++
+   Element #4366 missing from the priority queue
+++++++++++++++++++++++    ERROR #286   ++++++++++++++++++++++
+   Element #4371 missing from the priority queue
+++++++++++++++++++++++    ERROR #287   ++++++++++++++++++++++
+   Element #4374 missing from the priority queue
+++++++++++++++++++++++    ERROR #288   ++++++++++++++++++++++
+   Element #4377 missing from the priority queue
+++++++++++++++++++++++    ERROR #289   ++++++++++++++++++++++
+   Element #4378 missing from the priority queue
+++++++++++++++++++++++    ERROR #290   ++++++++++++++++++++++
+   Element #4379 missing from the priority queue
+++++++++++++++++++++++    ERROR #291   ++++++++++++++++++++++
+   Element #4382 missing from the priority queue
+++++++++++++++++++++++    ERROR #292   ++++++++++++++++++++++
+   Element #4383 missing from the priority queue
+++++++++++++++++++++++    ERROR #293   ++++++++++++++++++++++
+   Element #4385 missing from the priority queue
+++++++++++++++++++++++    ERROR #294   ++++++++++++++++++++++
+   Element #4389 missing from the priority queue
+++++++++++++++++++++++    ERROR #295   ++++++++++++++++++++++
+   Element #4408 missing from the priority queue
+++++++++++++++++++++++    ERROR #296   ++++++++++++++++++++++
+   Element #4413 missing from the priority queue
+++++++++++++++++++++++    ERROR #297   ++++++++++++++++++++++
+   Element #4417 missing from the priority queue
+++++++++++++++++++++++    ERROR #298   ++++++++++++++++++++++
+   Element #4419 missing from the priority queue
+++++++++++++++++++++++    ERROR #299   ++++++++++++++++++++++
+   Element #4421 missing from the priority queue
+++++++++++++++++++++++    ERROR #300   ++++++++++++++++++++++
+   Element #4422 missing from the priority queue
+++++++++++++++++++++++    ERROR #301   ++++++++++++++++++++++
+   Element #4439 missing from the priority queue
+++++++++++++++++++++++    ERROR #302   ++++++++++++++++++++++
+   Element #4440 missing from the priority queue
+++++++++++++++++++++++    ERROR #303   ++++++++++++++++++++++
+   Element #4445 missing from the priority queue
+++++++++++++++++++++++    ERROR #304   ++++++++++++++++++++++
+   Element #4451 missing from the priority queue
+++++++++++++++++++++++    ERROR #305   ++++++++++++++++++++++
+   Element #4462 missing from the priority queue
+++++++++++++++++++++++    ERROR #306   ++++++++++++++++++++++
+   Element #4470 missing from the priority queue
+++++++++++++++++++++++    ERROR #307   ++++++++++++++++++++++
+   Element #4473 missing from the priority queue
+++++++++++++++++++++++    ERROR #308   ++++++++++++++++++++++
+   Element #4479 missing from the priority queue
+++++++++++++++++++++++    ERROR #309   ++++++++++++++++++++++
+   Element #4483 missing from the priority queue
+++++++++++++++++++++++    ERROR #310   ++++++++++++++++++++++
+   Element #4489 missing from the priority queue
+++++++++++++++++++++++    ERROR #311   ++++++++++++++++++++++
+   Element #4493 missing from the priority queue
+++++++++++++++++++++++    ERROR #312   ++++++++++++++++++++++
+   Element #4494 missing from the priority queue
+++++++++++++++++++++++    ERROR #313   ++++++++++++++++++++++
+   Element #4495 missing from the priority queue
+++++++++++++++++++++++    ERROR #314   ++++++++++++++++++++++
+   Element #4496 missing from the priority queue
+++++++++++++++++++++++    ERROR #315   ++++++++++++++++++++++
+   Element #4497 missing from the priority queue
+++++++++++++++++++++++    ERROR #316   ++++++++++++++++++++++
+   Element #4501 missing from the priority queue
+++++++++++++++++++++++    ERROR #317   ++++++++++++++++++++++
+   Element #4508 missing from the priority queue
+++++++++++++++++++++++    ERROR #318   ++++++++++++++++++++++
+   Element #4517 missing from the priority queue
+++++++++++++++++++++++    ERROR #319   ++++++++++++++++++++++
+   Element #4519 missing from the priority queue
+++++++++++++++++++++++    ERROR #320   ++++++++++++++++++++++
+   Element #4522 missing from the priority queue
+++++++++++++++++++++++    ERROR #321   ++++++++++++++++++++++
+   Element #4528 missing from the priority queue
+++++++++++++++++++++++    ERROR #322   ++++++++++++++++++++++
+   Element #4531 missing from the priority queue
+++++++++++++++++++++++    ERROR #323   ++++++++++++++++++++++
+   Element #4534 missing from the priority queue
+++++++++++++++++++++++    ERROR #324   ++++++++++++++++++++++
+   Element #4547 missing from the priority queue
+++++++++++++++++++++++    ERROR #325   ++++++++++++++++++++++
+   Element #4550 missing from the priority queue
+++++++++++++++++++++++    ERROR #326   ++++++++++++++++++++++
+   Element #4559 missing from the priority queue
+++++++++++++++++++++++    ERROR #327   ++++++++++++++++++++++
+   Element #4566 missing from the priority queue
+++++++++++++++++++++++    ERROR #328   ++++++++++++++++++++++
+   Element #4568 missing from the priority queue
+++++++++++++++++++++++    ERROR #329   ++++++++++++++++++++++
+   Element #4569 missing from the priority queue
+++++++++++++++++++++++    ERROR #330   ++++++++++++++++++++++
+   Element #4571 missing from the priority queue
+++++++++++++++++++++++    ERROR #331   ++++++++++++++++++++++
+   Element #4573 missing from the priority queue
+++++++++++++++++++++++    ERROR #332   ++++++++++++++++++++++
+   Element #4581 missing from the priority queue
+++++++++++++++++++++++    ERROR #333   ++++++++++++++++++++++
+   Element #4587 missing from the priority queue
+++++++++++++++++++++++    ERROR #334   ++++++++++++++++++++++
+   Element #4599 missing from the priority queue
+++++++++++++++++++++++    ERROR #335   ++++++++++++++++++++++
+   Element #4603 missing from the priority queue
+++++++++++++++++++++++    ERROR #336   ++++++++++++++++++++++
+   Element #4604 missing from the priority queue
+++++++++++++++++++++++    ERROR #337   ++++++++++++++++++++++
+   Element #4609 missing from the priority queue
+++++++++++++++++++++++    ERROR #338   ++++++++++++++++++++++
+   Element #4617 missing from the priority queue
+++++++++++++++++++++++    ERROR #339   ++++++++++++++++++++++
+   Element #4619 missing from the priority queue
+++++++++++++++++++++++    ERROR #340   ++++++++++++++++++++++
+   Element #4626 missing from the priority queue
+++++++++++++++++++++++    ERROR #341   ++++++++++++++++++++++
+   Element #4630 missing from the priority queue
+++++++++++++++++++++++    ERROR #342   ++++++++++++++++++++++
+   Element #4631 missing from the priority queue
+++++++++++++++++++++++    ERROR #343   ++++++++++++++++++++++
+   Element #4636 missing from the priority queue
+++++++++++++++++++++++    ERROR #344   ++++++++++++++++++++++
+   Element #4638 missing from the priority queue
+++++++++++++++++++++++    ERROR #345   ++++++++++++++++++++++
+   Element #4640 missing from the priority queue
+++++++++++++++++++++++    ERROR #346   ++++++++++++++++++++++
+   Element #4643 missing from the priority queue
+++++++++++++++++++++++    ERROR #347   ++++++++++++++++++++++
+   Element #4645 missing from the priority queue
+++++++++++++++++++++++    ERROR #348   ++++++++++++++++++++++
+   Element #4651 missing from the priority queue
+++++++++++++++++++++++    ERROR #349   ++++++++++++++++++++++
+   Element #4656 missing from the priority queue
+++++++++++++++++++++++    ERROR #350   ++++++++++++++++++++++
+   Element #4661 missing from the priority queue
+++++++++++++++++++++++    ERROR #351   ++++++++++++++++++++++
+   Element #4662 missing from the priority queue
+++++++++++++++++++++++    ERROR #352   ++++++++++++++++++++++
+   Element #4663 missing from the priority queue
+++++++++++++++++++++++    ERROR #353   ++++++++++++++++++++++
+   Element #4665 missing from the priority queue
+++++++++++++++++++++++    ERROR #354   ++++++++++++++++++++++
+   Element #4668 missing from the priority queue
+++++++++++++++++++++++    ERROR #355   ++++++++++++++++++++++
+   Element #4669 missing from the priority queue
+++++++++++++++++++++++    ERROR #356   ++++++++++++++++++++++
+   Element #4674 missing from the priority queue
+++++++++++++++++++++++    ERROR #357   ++++++++++++++++++++++
+   Element #4679 missing from the priority queue
+++++++++++++++++++++++    ERROR #358   ++++++++++++++++++++++
+   Element #4683 missing from the priority queue
+++++++++++++++++++++++    ERROR #359   ++++++++++++++++++++++
+   Element #4687 missing from the priority queue
+++++++++++++++++++++++    ERROR #360   ++++++++++++++++++++++
+   Element #4690 missing from the priority queue
+++++++++++++++++++++++    ERROR #361   ++++++++++++++++++++++
+   Element #4712 missing from the priority queue
+++++++++++++++++++++++    ERROR #362   ++++++++++++++++++++++
+   Element #4735 missing from the priority queue
+++++++++++++++++++++++    ERROR #363   ++++++++++++++++++++++
+   Element #4740 missing from the priority queue
+++++++++++++++++++++++    ERROR #364   ++++++++++++++++++++++
+   Element #4745 missing from the priority queue
+++++++++++++++++++++++    ERROR #365   ++++++++++++++++++++++
+   Element #4747 missing from the priority queue
+++++++++++++++++++++++    ERROR #366   ++++++++++++++++++++++
+   Element #4748 missing from the priority queue
+++++++++++++++++++++++    ERROR #367   ++++++++++++++++++++++
+   Element #4754 missing from the priority queue
+++++++++++++++++++++++    ERROR #368   ++++++++++++++++++++++
+   Element #4755 missing from the priority queue
+++++++++++++++++++++++    ERROR #369   ++++++++++++++++++++++
+   Element #4756 missing from the priority queue
+++++++++++++++++++++++    ERROR #370   ++++++++++++++++++++++
+   Element #4759 missing from the priority queue
+++++++++++++++++++++++    ERROR #371   ++++++++++++++++++++++
+   Element #4761 missing from the priority queue
+++++++++++++++++++++++    ERROR #372   ++++++++++++++++++++++
+   Element #4763 missing from the priority queue
+++++++++++++++++++++++    ERROR #373   ++++++++++++++++++++++
+   Element #4765 missing from the priority queue
+++++++++++++++++++++++    ERROR #374   ++++++++++++++++++++++
+   Element #4769 missing from the priority queue
+++++++++++++++++++++++    ERROR #375   ++++++++++++++++++++++
+   Element #4773 missing from the priority queue
+++++++++++++++++++++++    ERROR #376   ++++++++++++++++++++++
+   Element #4777 missing from the priority queue
+++++++++++++++++++++++    ERROR #377   ++++++++++++++++++++++
+   Element #4781 missing from the priority queue
+++++++++++++++++++++++    ERROR #378   ++++++++++++++++++++++
+   Element #4785 missing from the priority queue
+++++++++++++++++++++++    ERROR #379   ++++++++++++++++++++++
+   Element #4796 missing from the priority queue
+++++++++++++++++++++++    ERROR #380   ++++++++++++++++++++++
+   Element #4798 missing from the priority queue
+++++++++++++++++++++++    ERROR #381   ++++++++++++++++++++++
+   Element #4801 missing from the priority queue
+++++++++++++++++++++++    ERROR #382   ++++++++++++++++++++++
+   Element #4805 missing from the priority queue
+++++++++++++++++++++++    ERROR #383   ++++++++++++++++++++++
+   Element #4806 missing from the priority queue
+++++++++++++++++++++++    ERROR #384   ++++++++++++++++++++++
+   Element #4811 missing from the priority queue
+++++++++++++++++++++++    ERROR #385   ++++++++++++++++++++++
+   Element #4822 missing from the priority queue
+++++++++++++++++++++++    ERROR #386   ++++++++++++++++++++++
+   Element #4824 missing from the priority queue
+++++++++++++++++++++++    ERROR #387   ++++++++++++++++++++++
+   Element #4828 missing from the priority queue
+++++++++++++++++++++++    ERROR #388   ++++++++++++++++++++++
+   Element #4829 missing from the priority queue
+++++++++++++++++++++++    ERROR #389   ++++++++++++++++++++++
+   Element #4834 missing from the priority queue
+++++++++++++++++++++++    ERROR #390   ++++++++++++++++++++++
+   Element #4842 missing from the priority queue
+++++++++++++++++++++++    ERROR #391   ++++++++++++++++++++++
+   Element #4843 missing from the priority queue
+++++++++++++++++++++++    ERROR #392   ++++++++++++++++++++++
+   Element #4854 missing from the priority queue
+++++++++++++++++++++++    ERROR #393   ++++++++++++++++++++++
+   Element #4855 missing from the priority queue
+++++++++++++++++++++++    ERROR #394   ++++++++++++++++++++++
+   Element #4861 missing from the priority queue
+++++++++++++++++++++++    ERROR #395   ++++++++++++++++++++++
+   Element #4865 missing from the priority queue
+++++++++++++++++++++++    ERROR #396   ++++++++++++++++++++++
+   Element #4867 missing from the priority queue
+++++++++++++++++++++++    ERROR #397   ++++++++++++++++++++++
+   Element #4875 missing from the priority queue
+++++++++++++++++++++++    ERROR #398   ++++++++++++++++++++++
+   Element #4880 missing from the priority queue
+++++++++++++++++++++++    ERROR #399   ++++++++++++++++++++++
+   Element #4882 missing from the priority queue
+++++++++++++++++++++++    ERROR #400   ++++++++++++++++++++++
+   Element #4892 missing from the priority queue
+++++++++++++++++++++++    ERROR #401   ++++++++++++++++++++++
+   Element #4893 missing from the priority queue
+++++++++++++++++++++++    ERROR #402   ++++++++++++++++++++++
+   Element #4894 missing from the priority queue
+++++++++++++++++++++++    ERROR #403   ++++++++++++++++++++++
+   Element #4898 missing from the priority queue
+++++++++++++++++++++++    ERROR #404   ++++++++++++++++++++++
+   Element #4902 missing from the priority queue
+++++++++++++++++++++++    ERROR #405   ++++++++++++++++++++++
+   Element #4904 missing from the priority queue
+++++++++++++++++++++++    ERROR #406   ++++++++++++++++++++++
+   Element #4906 missing from the priority queue
+++++++++++++++++++++++    ERROR #407   ++++++++++++++++++++++
+   Element #4911 missing from the priority queue
+++++++++++++++++++++++    ERROR #408   ++++++++++++++++++++++
+   Element #4917 missing from the priority queue
+++++++++++++++++++++++    ERROR #409   ++++++++++++++++++++++
+   Element #4919 missing from the priority queue
+++++++++++++++++++++++    ERROR #410   ++++++++++++++++++++++
+   Element #4921 missing from the priority queue
+++++++++++++++++++++++    ERROR #411   ++++++++++++++++++++++
+   Element #4930 missing from the priority queue
+++++++++++++++++++++++    ERROR #412   ++++++++++++++++++++++
+   Element #4932 missing from the priority queue
+++++++++++++++++++++++    ERROR #413   ++++++++++++++++++++++
+   Element #4935 missing from the priority queue
+++++++++++++++++++++++    ERROR #414   ++++++++++++++++++++++
+   Element #4937 missing from the priority queue
+++++++++++++++++++++++    ERROR #415   ++++++++++++++++++++++
+   Element #4945 missing from the priority queue
+++++++++++++++++++++++    ERROR #416   ++++++++++++++++++++++
+   Element #4946 missing from the priority queue
+++++++++++++++++++++++    ERROR #417   ++++++++++++++++++++++
+   Element #4956 missing from the priority queue
+++++++++++++++++++++++    ERROR #418   ++++++++++++++++++++++
+   Element #4960 missing from the priority queue
+++++++++++++++++++++++    ERROR #419   ++++++++++++++++++++++
+   Element #4968 missing from the priority queue
+++++++++++++++++++++++    ERROR #420   ++++++++++++++++++++++
+   Element #4973 missing from the priority queue
+++++++++++++++++++++++    ERROR #421   ++++++++++++++++++++++
+   Element #4976 missing from the priority queue
+++++++++++++++++++++++    ERROR #422   ++++++++++++++++++++++
+   Element #4977 missing from the priority queue
+++++++++++++++++++++++    ERROR #423   ++++++++++++++++++++++
+   Element #4983 missing from the priority queue
+++++++++++++++++++++++    ERROR #424   ++++++++++++++++++++++
+   Element #4985 missing from the priority queue
+++++++++++++++++++++++    ERROR #425   ++++++++++++++++++++++
+   Element #4988 missing from the priority queue
+++++++++++++++++++++++    ERROR #426   ++++++++++++++++++++++
+   Element #5658 missing from the priority queue
+Verifying repetition schedule (Workload.dat and ElementInfo.dat)
+Verifying pending queue (Intact.dat)
+++++++++++++++++++++++    ERROR #427   ++++++++++++++++++++++
+   Deleted/Memorized element #5287 in the pending queue
+++++++++++++++++++++++    ERROR #428   ++++++++++++++++++++++
+   1 wrong elements in the pending queue
+++++++++++++++++++++++    ERROR #429   ++++++++++++++++++++++
+   Removing element #5287 from the pending queue
+Verifying A-Factor, Lapses and Repetitions distributions
+
+Process completed at 12:29:53 AM in 00:00:05 sec (Tuesday, December 20, 2022)
+
+429 ERRORS (Checking the integrity of the collection)
+
+____________________________________________________________
