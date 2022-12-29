@@ -12,10 +12,12 @@ from time import strftime
 import html
 
 headers={"User-Agent":UserAgent().firefox}
+
 with open('dic.txt','r') as f:
     dic=json.loads(f.read())
 with open('sdic.txt','r',encoding='utf-8') as f:
     sdic=json.loads(f.read())
+
 for i in dic:
     if not i in sdic :
         sdic[i]=''

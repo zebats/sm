@@ -1333,3 +1333,6 @@ Dec 01, 2022, 23:09:50:    Cannot verify YouTube open dialog variable .. Access 
 Dec 01, 2022, 23:09:50:    Cannot verify YouTube open dialog variable .. Access violation at address 00AD0785 in module 'sm18.exe'. Read of address 000004A7 (18.05, Oct 29, 2020)
 Dec 06, 2022, 20:07:14:    Cannot save the lexicon text file .. I/O error 105 (18.05, Oct 29, 2020)
 Dec 20, 2022, 00:29:08:    Missing element in the repetition schedule on 12/19/2022 .. Not found: Item #5,287: 组胚 肺导气部假复层纤毛柱状上皮逐渐变薄，至[.]支气管变成单层柱状上皮，粘膜常形成皱襞。. ------------------.     Chapter:14.     Date:2022/12/16 08:53:35 ..  .. IMPORTANT! To prevent data loss do the following: 1. Back up your collection (e.g. with Ctrl+Shift+C) 2. Run File : Repair collection (Ctrl+F12) (18.05, Oct 29, 2020)
+Dec 22, 2022, 15:01:08:    Deleting knowledge tree element that has already been deleted #3121 (18.05, Oct 29, 2020)
+Dec 24, 2022, 20:05:38:    Too many elements to fit the priority range! .. Priority positions from: 1 to 282 .. Queue size: 283 (18.05, Oct 29, 2020)
+Dec 25, 2022, 15:47:26:    Too many elements to fit the priority range! .. Priority positions from: 1 to 508 .. Queue size: 509 (18.05, Oct 29, 2020)

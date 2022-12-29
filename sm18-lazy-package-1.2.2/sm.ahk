@@ -8,17 +8,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 AddNew(){
     FormatTime, DateNow , , yyyy/M/d hh:mm:ss
     Send ^{End}
-    Send {Text}Q: <SPAN class=field>组胚</SPAN>
+    ; Send {Text}Q: <SPAN class=field>组胚</SPAN>
     ; Send {Text}Q: <SPAN class=field>高数</SPAN>
-    ; Send {Text}Q: <SPAN class=field>基化</SPAN>
+    Send {Text}Q: <SPAN class=field>基化</SPAN>
     ; Send {Text}Q: <SPAN class=field>近代史</SPAN>
     ; Send {Text}Q: <SPAN class=field>德法</SPAN>
     ; Send {Text}Q: <SPAN class=field>英语</SPAN>
     Send {Space}
-    Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Chapter:14<BR>&nbsp;&nbsp;&nbsp; Date:%DateNow%</DIV>
+    Send {Text}<BR><DIV class=footer><BR>------------------<BR>&nbsp;&nbsp;&nbsp; Chapter:5<BR>&nbsp;&nbsp;&nbsp; Date:%DateNow%</DIV>
     Send {Space}{Enter}
     ;如果有开自动补全就会多个tab
-    ; Send {BackSpace}
+    Send {BackSpace}
     Send {Text}A:
     Send {Space}{Enter}
     Send {Text}<hr>
@@ -55,8 +55,14 @@ Return
 :o?:/left::→
 :o?:/theta::θ
 :o?:/la::
-    Send {Text}<SPAN class=latex>[$][/$]</SPAN>
-    Send {Left 11}
+    FormatTime, DateNow , , yyyy/M/d hh:mm:ss
+    Send {Text}<SPAN class=latex>[$][/$]</SPAN><SPAN style="display:none;">%DateNow%</SPAN>
+    Send {Left 65}
+Return
+:o?:\la::
+    FormatTime, DateNow , , yyyy/M/d hh:mm:ss
+    Send {Text}<SPAN class=latex>[$$][/$$]</SPAN><SPAN style="display:none;">%DateNow%</SPAN>
+    Send {Left 66}
 Return
 :o?:/fr::\frac{{}{}}{{}{}}{Left 3}
 :o?:/sq::\sqrt{{}{}}{Left}
