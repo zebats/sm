@@ -1,11 +1,11 @@
 BODY {
 	BACKGROUND-COLOR: #263238;
 	COLOR           : #cccccc;
-	FONT-FAMILY     : TimesTenLTStd-Roman;
+	FONT-FAMILY     : 微软雅黑;
 	FONT-SIZE       : 13pt;
 	font-weight		: 700;
-	LINE-HEIGHT     : 1.85em;
-	TEXT-INDENT     : 2em;
+	LINE-HEIGHT     : 1.3em;
+	/* TEXT-INDENT     : 2em; */
 	PADDING         : 1em 5% 0 5%;
 }
 h1 {
@@ -158,7 +158,7 @@ img.origin_image {
 	line-height:100%
 	/* margin-top:10px; */
 }
-.customCloze {
+.cloze {
 	color: #eeeeee;
 }
 
@@ -167,5 +167,7 @@ img.origin_image {
 	background-color: white;
 }
 
-
-
+.qHtml{
+display:inline-block;
+vertical-align:text-top;
+}

@@ -27,9 +27,16 @@ for sentence_current_word in word_list:
 for sentence_current_word in chinese_meanings:
     chinese_meanings[sentence_current_word] = chinese_meanings[sentence_current_word].split("；")
 
-# 定义比较函数，用于将词频统计结果按照词频排序
+# 定义比较函数，用于将句子按长度排序
 def cmp(a):
     return len(a[0])
+# 定义比较函数，用于将句子按生词数排序
+def get_num_of_unknown_words(sentence):
+    count = 0
+    for word in sentence[0]:
+        if (not re.match(r'[^a-z]', word.lower())) and ((not word.lower() in word_list) or word_list[word.lower()] == 0):
+            count += 1
+    return count
 
 # 从有道词典获取单词的释义和例句（不要试图去理解它，一半抄的一半写得狗都不认识）
 def get_translation(word):
@@ -65,7 +72,8 @@ def get_sentence(word):
     for i in range(len(b)):
         c.append([' '.join(b[i].p.stripped_strings).replace(" '", "'").replace(
             " .", ".").replace(" ?", "?"), ''.join(b[i].findAll('p')[1].stripped_strings)])
-    c.sort(key=cmp)
+    c.sort(key = cmp)
+    c.sort(key = get_num_of_unknown_words)
     for i in range(len(c)-1):
         if c[i][0] == c[i+1][0]:
             c.pop(i)
@@ -138,7 +146,31 @@ def get_top_freq_words(word_freq, frequency = 3):
             break
     return high_frequency_words
 
-def print_word_info(word, sentence, frequency = 3, max_length = 90):
+def highlight_sentence(keyword, sentence):
+    '''给英文句子的关键词与生词添加高亮，返回添加高亮的句子
+
+    Args:
+        word (str): 关键词
+        sentence (str): 所要添加高亮的句子
+
+    Returns:
+        str: 添加高亮的句子
+    '''
+    words = sentence.split()
+    for word in words:
+        if word[-1] in '.?':
+            word = word[:-1]
+        if re.match(r'.*[^a-z]', word.lower()):
+            continue
+        if word.lower() == keyword.lower():
+            sentence = re.sub(fr'({word})', fr'\033[91m{word}\033[0m',sentence)
+        elif (not word.lower() in word_list) or word_list[word.lower()] == 0:
+            sentence = re.sub(fr'({word})', fr'\033[93m{word}\033[0m',sentence)
+
+    return sentence
+
+
+def print_word_info(word, sentence, youdao_translation, frequency = 3, max_length = 90):
     '''展示单词以及相关的句子，释义，翻译出现的词频等相关信息
     eg. --------------------
         高频词: 过度12 导致4 过多4 对4 可能3
@@ -149,24 +181,28 @@ def print_word_info(word, sentence, frequency = 3, max_length = 90):
         word (str): 单词
         sentence (list): 单词对应的句子，要get_sentence函数返回的
         frequency (int, optional): 要转化的频率最低的词汇的频率. Defaults to 3.
-        max_length (int, optional): 每行限制的最大长度. Defaults to 100.
+        max_length (int, optional): 每行限制的最大长度. Defaults to 90.
     '''
-    print(f'{"-"*20}\n高频词: {get_top_freq_words(count_word_freq(sentence), frequency)}')
+    print(f'{"-"*20}No.{current_run_processed_words_count}   {unprocessed_words_count - current_run_processed_words_count + 1}left\n高频词: {get_top_freq_words(count_word_freq(sentence), frequency)}')
     space_length = (len(sentence[sentence_index][0]) + 3 + len(word) + 3 + len('  '.join(chinese_meanings[word])) + len(re.findall(r'([一-龟]|，)', ' '.join(chinese_meanings[word]))) + 3)
     #对出来最后屁股不准是因为中英文宽度不同，懒得改了太麻烦了
-    youdao_meaning_info_list = get_translation(word)[1].split('\n')
+
+    #处理显示有道释义的字符串
+    youdao_meaning_info_list = youdao_translation[1].split('\n')
     for line in range(len(youdao_meaning_info_list)):
         youdao_meaning_info_list[line] = youdao_meaning_info_list[line].replace(' ','')
-        for l in range(max_length - space_length, 9999, max_length):
-            if len(youdao_meaning_info_list[line]) >= l:
-                youdao_meaning_info_list[line] = youdao_meaning_info_list[line][:l] + '\n' + ' ' * (space_length + 2) + youdao_meaning_info_list[line][l:]#space_length+2是为了换行时往后缩两格
-            else:
-                break
-        youdao_meaning_info_list[line] = ' ' * space_length + youdao_meaning_info_list[line]
-    youdao_meaning_info_list[0] = youdao_meaning_info_list[0][space_length:]
+    if space_length < (max_length - 7) :
+        for line in range(len(youdao_meaning_info_list)):
+            for l in range(max_length - space_length, 9994, max_length):
+                if len(youdao_meaning_info_list[line]) >= l:
+                    youdao_meaning_info_list[line] = youdao_meaning_info_list[line][:l] + '\n' + ' ' * (space_length + 2) + youdao_meaning_info_list[line][l:]#space_length+2是为了换行时往后缩两格
+                else:
+                    break
+            youdao_meaning_info_list[line] = ' ' * space_length + youdao_meaning_info_list[line]
+        youdao_meaning_info_list[0] = youdao_meaning_info_list[0][space_length:]
     youdao_meaning_info_str = '\n'.join(youdao_meaning_info_list)
                                                                      
-    print(f'{sentence[sentence_index][0]} | {word} | {"  ".join(chinese_meanings[word])} | {youdao_meaning_info_str}')
+    print(f'{highlight_sentence(word, sentence[sentence_index][0])} | {word} | {"  ".join(chinese_meanings[word.lower()])} | {youdao_meaning_info_str}')
     print(sentence[sentence_index][1])
 
 def save():
@@ -200,6 +236,48 @@ def is_valuable_word(word):
         return False
     return True
 
+def convert_code(symbol):
+    '''将键盘左下角的nm,./五个键对应成04321，便于输入
+
+    Args:
+        symbol (char): 应该输入数字或nm,./,硬要塞点别的字符串也不是不行
+
+    Returns:
+        char: nm,..五个字符会被分别转为04321,其它的原封不动地退回
+    '''
+    if symbol == '//':
+        return '1'
+    symbol = re.sub(' ', '', symbol)
+    while not symbol in ['0', '1', '2', '3', '4', '', 'n', 'm', ',', '.', '/']:
+        symbol = input('again?')
+    if symbol == 'n':
+        symbol ='0'
+    elif symbol == '/':
+        symbol ='1'
+    elif symbol == '.':
+        symbol = '2'
+    elif symbol == ',':
+        symbol = '3'
+    elif symbol == 'm':
+        symbol = '4'
+    return symbol
+
+def next_index(index, sentence):
+    '''根据输入的目前的循环中的index返回在sentence中的下一个index，到尽头后返回0
+
+    Args:
+        index (int): 目前的index
+        sentence (list): 整个程序的sentence都是一个东西，没啥好说的
+
+    Returns:
+        int: 下一个sentence_index的值
+    '''
+    if index == len(sentence)-1:
+        print('-'*20+'\n  over!\n'+'-'*20+'\n')
+        return 0
+    else:
+        return index + 1
+
 current_run_processed_words_count = 0
 
 # 计数未处理的单词
@@ -210,8 +288,11 @@ for sentence_current_word in word_list:
 
 for current_word in word_list.copy():  # 选词
     if word_list[current_word] == 0:
-        current_run_processed_words_count += 1
+        save()
+
         sentence_index = 0
+
+        exclusion = []
 
         os.system(r"start download_pronunciation.pyw")
 
@@ -220,26 +301,37 @@ for current_word in word_list.copy():  # 选词
         except:
             print(f'no sentences found!({current_word})')
             continue
+        
+        current_run_processed_words_count += 1
 
-        local_meanings = get_local_meanings(current_word)
+        local_meanings = get_local_meanings(current_word.lower())
+        youdao_meanings = get_translation(current_word)
+
+        freq_words = re.sub(r'[0-9]', '', get_top_freq_words(count_word_freq(sentence))).split(' ')
+        freq_words.remove('')
         
         while True:  # 选句子1
-            save()
-            print_word_info(current_word, sentence, 3)
+            escape = False
+            for chinese_word in exclusion:
+                if chinese_word in sentence[sentence_index][1]:
+                    sentence_index = next_index(sentence_index, sentence)
+                    escape =True
+            if escape:
+                continue
+
+            print_word_info(current_word, sentence, youdao_meanings, 3, 110)
             
             # 1:切换下一个句子 2:选择当前的句子 3：回到第一个句子 4:切换到下一个单词 直接回车也是2
-            change = input('change?(1/2/3/4)')
+            change = convert_code(input('change?(1/2/3/4)'))
+            
             if change == '1':
-                if sentence_index == len(sentence)-1:
-                    print('-'*20+'\n  over!\n'+'-'*20+'/n')
-                    sentence_index = 0
-                else:
-                    sentence_index += 1
+                sentence_index = next_index(sentence_index, sentence)
             # 2无了(改else里了)
             elif change == '3':
                 sentence_index = 0
             elif change == '4':
                 word_list[current_word] = 1
+                break
             else:  # 原来的2
                 # 处理句子
                 for sentence_current_word in sentence[sentence_index][0].replace('.', '').replace('?', '').split():
@@ -250,7 +342,8 @@ for current_word in word_list.copy():  # 选词
                     print(sentence_current_word)
 
                     if not sentence_current_word.lower() in word_list:
-                        user_response = input('"0N/1Y/2Pass"\n')
+                        user_response = convert_code(input('"0N/1Y/2Pass"\n'))
+                        
                         if user_response == '2':
                             continue
                         if user_response != '0':
@@ -263,7 +356,10 @@ for current_word in word_list.copy():  # 选词
                     elif sentence_current_word.lower() == current_word:
                         current_meanings = local_meanings
 
-                    current_trans_to_write = get_translation(sentence_current_word)
+                    if sentence_current_word == current_word:
+                        current_trans_to_write = youdao_meanings
+                    else:
+                        current_trans_to_write = get_translation(sentence_current_word)
                     print(current_trans_to_write[1])
                     current_trans_to_write[1] = (re.sub(r'\s', '', re.sub(
                         r'\n', '<BR>', html.escape(current_trans_to_write[1]))))
@@ -272,13 +368,13 @@ for current_word in word_list.copy():  # 选词
                         if sentence_current_word.lower() in chinese_meanings:
                             for meaning in range(len(current_meanings)):
                                 print(meaning, current_meanings[meaning][0])
-                            meaning_choice = input('which?')
+                            meaning_choice = convert_code(input('which?'))
                             if meaning_choice == '':
                                 meaning_choice = '0'
-                            f.write(f'Q: {sentence[sentence_index][0].replace(sentence_current_word,f"<a style={chr(34)}display:none{chr(34)}>.</a><b><u>{sentence_current_word}</u></b><a style={chr(34)}display:none{chr(34)}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {current_meanings[int(meaning_choice)][0]}<BR><DIV class=footer><BR>-------------------<BR>{current_trans_to_write[1]}</DIV>\n<hr>\n\n')
+                            f.write(f'Q: {sentence[sentence_index][0].replace(sentence_current_word,f"<a style={chr(34)}display:none{chr(34)}>.</a><b><u>{sentence_current_word}</u></b><a style={chr(34)}display:none{chr(34)}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {current_meanings[int(meaning_choice)][0]}<BR><DIV class=footer><BR>-------------------<BR>{current_trans_to_write[1]}<BR>{sentence[sentence_index][1]}</DIV>\n<hr>\n\n')
                             current_meanings.pop(int(meaning_choice))
                         else:
-                            f.write(f'Q: {sentence[sentence_index][0].replace(sentence_current_word,f"<a style={chr(34)}display:none{chr(34)}>.</a><b><u>{sentence_current_word}</u></b><a style={chr(34)}display:none{chr(34)}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {current_trans_to_write[0]}<BR><DIV class=footer><BR>-------------------<BR>{current_trans_to_write[1]}</DIV>\n<hr>\n\n')
+                            f.write(f'Q: {sentence[sentence_index][0].replace(sentence_current_word,f"<a style={chr(34)}display:none{chr(34)}>.</a><b><u>{sentence_current_word}</u></b><a style={chr(34)}display:none{chr(34)}>.</a>")}<BR><DIV class=footer><BR>-------------------<BR>Content:CET-4<BR>Date:{datetime.datetime.now().strftime("%Y/%m/%d")}</DIV>\nA: {current_trans_to_write[0]}<BR><DIV class=footer><BR>-------------------<BR>{current_trans_to_write[1]}<BR>{sentence[sentence_index][1]}</DIV>\n<hr>\n\n')
                         
                 is_current_word_completed = 1
                 for meaning in local_meanings:
@@ -287,6 +383,10 @@ for current_word in word_list.copy():  # 选词
                     word_list[current_word] = 1
                     #别的情况下生词不标记为学过是因为可能有多种意思
                     break
-
-                sentence_index += 1
+                
+                for chinese_word in freq_words:
+                    if chinese_word in sentence[sentence_index][1]:
+                        exclusion.append(chinese_word)
+                        break
+                sentence_index = next_index(sentence_index, sentence)
 save()

@@ -1,11 +1,16 @@
 SuperMemo Report
    Activity: Operation: export an HTML document for elements
    Collection: c:\sm18\sm\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
-   Date: Sunday, December 11, 2022, 1:30:52 PM
+   Date: Tuesday, January 17, 2023, 10:14:42 PM
    SuperMemo 18 (Build 18.05, Oct 29, 2020)
 
+This collection is past the midnight shift!
+Collection: abc of supermemo 18
+Please close to ensure learning data integrity
+Warning! Check your date setting!
+This session is reported as lasting 3d 1h 6m 31s
 
-Process completed at 1:31:53 PM in 00:01:00 sec (Sunday, December 11, 2022)
+Process completed at 10:14:49 PM in 00:00:06 sec (Tuesday, January 17, 2023)
 
 NO ERRORS (Operation: export an HTML document for elements)
 

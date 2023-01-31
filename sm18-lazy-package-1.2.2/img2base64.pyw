@@ -5,6 +5,12 @@ import time
 
 im = ImageGrab.grabclipboard()
 if isinstance(im, Image.Image):
+    width, height = im.size
+    if width > 800:
+        im = im.resize((800, int(800 * height / width)))
+    width, height = im.size
+    if height > 250:
+        im = im.resize((int(250 * width / height), 250))
     im.save( r".\deleteMe.jpg")
     image_path = r'.\deleteMe.jpg'
     with open(image_path, 'rb') as f:

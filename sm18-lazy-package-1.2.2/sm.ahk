@@ -91,6 +91,7 @@ Return
 ; Return
 ;     Send ^v{left}{ShiftDown}{left 3}{ShiftUp}
 
+
 ;新建卡
 #IfWinActive, ahk_exe code.exe
 !a::
