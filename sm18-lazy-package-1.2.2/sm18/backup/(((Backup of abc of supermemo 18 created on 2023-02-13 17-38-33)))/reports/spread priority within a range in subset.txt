@@ -1,0 +1,12 @@
+SuperMemo Report
+   Activity: Operation: spread priority within a range in elements
+   Collection: c:\sm18\sm\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
+   Date: Friday, December 30, 2022, 2:30:15 PM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+
+Process completed at 2:30:16 PM in 00:00:01 sec (Friday, December 30, 2022)
+
+NO ERRORS (Operation: spread priority within a range in elements)
+
+____________________________________________________________

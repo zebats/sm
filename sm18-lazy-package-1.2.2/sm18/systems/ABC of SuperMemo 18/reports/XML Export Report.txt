@@ -1,12 +1,12 @@
 SuperMemo Report
-   Activity: Exporting to C:\Users\admin\Desktop\abc of supermemo 18 (皮肤由表皮和真皮两部分组成).xml
+   Activity: Exporting to C:\Users\admin\Desktop\col.xml
    Collection: c:\sm18\sm\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
-   Date: Tuesday, January 17, 2023, 10:16:53 PM
+   Date: Friday, March 17, 2023, 11:40:09 AM
    SuperMemo 18 (Build 18.05, Oct 29, 2020)
 
 
-Process completed at 10:16:54 PM in 00:00:00 sec (Tuesday, January 17, 2023)
+Process completed at 11:41:51 AM in 00:01:41 sec (Friday, March 17, 2023)
 
-NO ERRORS (Exporting to C:\Users\admin\Desktop\abc of supermemo 18 (皮肤由表皮和真皮两部分组成).xml)
+NO ERRORS (Exporting to C:\Users\admin\Desktop\col.xml)
 
 ____________________________________________________________

@@ -1,0 +1,1829 @@
+SuperMemo Report
+   Activity: Checking the integrity of the collection
+   Collection: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
+   Date: Saturday, August 20, 2022, 10:51:05 AM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+Checking 3,512 element records (ElementInfo.dat)
+Turning on tasklist verification along element data integrity checks
+Verifying integrity of element data (3512 elements in ElementInfo.dat)
+++++++++++++++++++++++    ERROR #1   ++++++++++++++++++++++
+   Wrong date of the next repetition at item #2713
+   Expected: 8/17/2022
+   Found: 8/19/2022
+++++++++++++++++++++++    ERROR #2   ++++++++++++++++++++++
+   Element #2713 missing from the outstanding queue
+++++++++++++++++++++++    ERROR #3   ++++++++++++++++++++++
+   Item #2713 missing from the outstanding queue
+++++++++++++++++++++++    ERROR #4   ++++++++++++++++++++++
+   Item Burden has been corrected from 76.00021 to 76.50021
+++++++++++++++++++++++    ERROR #5   ++++++++++++++++++++++
+   Avg Item Reps has been corrected from 2.28482 to 2.28274
+++++++++++++++++++++++    ERROR #6   ++++++++++++++++++++++
+   Avg Item Interval has been corrected from 25.97713 to 25.97505
+++++++++++++++++++++++    ERROR #7   ++++++++++++++++++++++
+   Avg Last Item Rep has been corrected from 63.10603 to 63.10395
+Verifying knowledge tree (3,512 elements in Contents.dat)
+420 children at Topic #2,444: CET4
+Verifying the priority queue of 599 elements
+Verifying repetition schedule (Workload.dat and ElementInfo.dat)
+Verifying pending queue (Intact.dat)
+Verifying A-Factor, Lapses and Repetitions distributions
+++++++++++++++++++++++    ERROR #8   ++++++++++++++++++++++
+   Item interval distribution discrepancy in category 1
+   Items reported: 25
+   Items found:    26
+++++++++++++++++++++++    ERROR #9   ++++++++++++++++++++++
+   Item interval distribution discrepancy in category 2
+   Items reported: 8
+   Items found:    7
+++++++++++++++++++++++    ERROR #10   ++++++++++++++++++++++
+   Repetition distribution discrepancy in category 1
+   Items reported: 99
+   Items found:    100
+++++++++++++++++++++++    ERROR #11   ++++++++++++++++++++++
+   Repetition distribution discrepancy in category 2
+   Items reported: 187
+   Items found:    186
+Recovering registries and filespace references
+Rebuilding Text registry (1881 members in a 1926 member file)
+Rebuilding Template registry (19 members in a 19 member file)
+Rebuilding Font registry (0 members in a 0 member file)
+Rebuilding Reference registry (86 members in a 86 member file)
+Rebuilding Style registry (1 members in a 1 member file)
+Rebuilding Script registry (0 members in a 0 member file)
+Rebuilding Program registry (0 members in a 0 member file)
+Rebuilding Ole registry (0 members in a 0 member file)
+Rebuilding Video registry (0 members in a 0 member file)
+Rebuilding Image registry (98 members in a 98 member file)
+++++++++++++++++++++++    ERROR #12   ++++++++++++++++++++++
+   Error! Empty file in the filespace
+   Image #42: v2-cb7293df939ea85f1a0b9663632a48b9_720w.jpg&sign=e0859cc8eda09041e044af7d22748b8cd99b1f3f893f7bb86449ca1040d01582
+   File: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18\elements\14\145.jpg
+++++++++++++++++++++++    ERROR #13   ++++++++++++++++++++++
+   Error! Empty file in the filespace
+   Image #43: v2-a4794c03f88f74b504881ba379dc24af_720w.jpg&sign=d25a04595457efe3862d1ae4e4ec61db23205111d78866a9a8911fe858309aec
+   File: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18\elements\10\103.jpg
+++++++++++++++++++++++    ERROR #14   ++++++++++++++++++++++
+   Error! Empty file in the filespace
+   Image #44: v2-aca1ea927463573520c27a7aad735533_720w.jpg&sign=ca3a7667d5f99113c0705f625f8825535514f46231fa8f76585664509223fd23
+   File: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18\elements\10\104.jpg
+Rebuilding Sound registry (410 members in a 418 member file)
+Rebuilding Tasklist registry (1 members in a 1 member file)
+Rebuilding Concept registry (1 members in a 2 member file)
+Rebuilding Link registry (0 members in a 0 member file)
+Registering components
+Transferring templates
+Registering references
+Registering image references
+Registration of links for 0 members in a 0 member file
+Registration of concepts for 1 members in a 2 member file
+Verifying Text registry
+Warning! Registry member not used
+   Text #1: Image reference for image #42
+Warning! Registry member not used
+   Text #3: HTML: <P>&nbsp;</P>
+Warning! Registry member not used
+   Text #17: 119.jpg
+Warning! Registry member not used
+   Text #22: Image reference for image #17
+Warning! Registry member not used
+   Text #48: v2-ed2fbf25b61fd37d46c80c65f63fba47_r.jpg
+Warning! Registry member not used
+   Text #85: Image reference for image #9
+Warning! Registry member not used
+   Text #89: file://z:/applications (parallels)/sm18/systems/abc of supermemo 18/elements/5/51.jpg
+Warning! Registry member not used
+   Text #96: Imported on Nov 04, 2021, 00:10:05
+Warning! Registry member not used
+   Text #97: Image reference for image #10
+Warning! Registry member not used
+   Text #99: v2-aa0882f7f250c229ed009c25b7f3d462_b.jpg
+Warning! Registry member not used
+   Text #104: file://z:/applications (parallels)/sm18/systems/abc of supermemo 18/elements/5/54.jpg
+Warning! Registry member not used
+   Text #105: 54.jpg
+Warning! Registry member not used
+   Text #108: Imported on Nov 06, 2021, 16:10:15
+Warning! Registry member not used
+   Text #112: 51.jpg
+Warning! Registry member not used
+   Text #147: https://pic2.zhimg.com/v2-700e62c0c20b20070d2bc3314e36c3e1_r.jpg
+Warning! Registry member not used
+   Text #173: v2-ec0383ff503824201d11e9f049550210_r.jpg
+Warning! Registry member not used
+   Text #178: https://pic1.zhimg.com/v2-c158fbc2b3cae7740e29273951b38ac8_r.jpg
+Warning! Registry member not used
+   Text #180: https://pic1.zhimg.com/v2-1d7552de8065b23f88616e3d34409cf8_b.jpg
+Warning! Registry member not used
+   Text #181: v2-9016ff7f9219da283d01c13bc0e91e4c_r.jpg
+Warning! Registry member not used
+   Text #194: Image reference for image #19
+Warning! Registry member not used
+   Text #195: v2-8536b0d9dfefeebb3e9246e38f56180d_r.jpg
+Warning! Registry member not used
+   Text #197: Image reference for image #24
+Warning! Registry member not used
+   Text #198: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/121.jpg
+Warning! Registry member not used
+   Text #200: 136.jpg
+Warning! Registry member not used
+   Text #201: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/130.jpg
+Warning! Registry member not used
+   Text #202: v2-625dd9a115a21ca342d70750a3febaf0_r.jpg
+Warning! Registry member not used
+   Text #205: https://pic1.zhimg.com/v2-bdec35b281ccba6347ec39f100248b48_r.jpg
+Warning! Registry member not used
+   Text #208: https://pic1.zhimg.com/v2-625dd9a115a21ca342d70750a3febaf0_r.jpg
+Warning! Registry member not used
+   Text #210: https://pic2.zhimg.com/v2-08d7a5fc5a160d4572d2e538b673bd4d_r.jpg
+Warning! Registry member not used
+   Text #212: Image reference for image #40
+Warning! Registry member not used
+   Text #214: Image reference for image #27
+Warning! Registry member not used
+   Text #220: https://pic1.zhimg.com/v2-ec0383ff503824201d11e9f049550210_r.jpg
+Warning! Registry member not used
+   Text #221: Imported on Nov 06, 2021, 16:10:17
+Warning! Registry member not used
+   Text #222: https://pic1.zhimg.com/v2-eddaaacc5a23a21964a9a82ed3c97840_r.jpg
+Warning! Registry member not used
+   Text #235: https://pic4.zhimg.com/v2-ed2fbf25b61fd37d46c80c65f63fba47_r.jpg
+Warning! Registry member not used
+   Text #236: Image reference for image #16
+Warning! Registry member not used
+   Text #237: https://pic2.zhimg.com/v2-8536b0d9dfefeebb3e9246e38f56180d_r.jpg
+Warning! Registry member not used
+   Text #238: Image reference for image #15
+Warning! Registry member not used
+   Text #239: Image reference for image #18
+Warning! Registry member not used
+   Text #240: v2-eddaaacc5a23a21964a9a82ed3c97840_r.jpg
+Warning! Registry member not used
+   Text #241: v2-d1914edd6878e6ef8717917b2c2c06aa_r.jpg
+Warning! Registry member not used
+   Text #242: https://pic3.zhimg.com/v2-d1914edd6878e6ef8717917b2c2c06aa_r.jpg
+Warning! Registry member not used
+   Text #243: v2-96d2ea52310e70242af955defbb3c984_r.jpg
+Warning! Registry member not used
+   Text #244: https://pic1.zhimg.com/v2-96d2ea52310e70242af955defbb3c984_r.jpg
+Warning! Registry member not used
+   Text #245: Image reference for image #20
+Warning! Registry member not used
+   Text #246: Image reference for image #21
+Warning! Registry member not used
+   Text #247: v2-700e62c0c20b20070d2bc3314e36c3e1_r.jpg
+Warning! Registry member not used
+   Text #248: Image reference for image #22
+Warning! Registry member not used
+   Text #249: v2-08d7a5fc5a160d4572d2e538b673bd4d_r.jpg
+Warning! Registry member not used
+   Text #250: Image reference for image #23
+Warning! Registry member not used
+   Text #251: v2-1d7552de8065b23f88616e3d34409cf8_b.jpg
+Warning! Registry member not used
+   Text #252: https://pic1.zhimg.com/v2-9016ff7f9219da283d01c13bc0e91e4c_r.jpg
+Warning! Registry member not used
+   Text #253: Image reference for image #25
+Warning! Registry member not used
+   Text #254: v2-9efb6e5a5d58e1b1fdd2313905ea360e_r.jpg
+Warning! Registry member not used
+   Text #255: Imported on Nov 06, 2021, 16:10:16
+Warning! Registry member not used
+   Text #256: https://pic3.zhimg.com/v2-9efb6e5a5d58e1b1fdd2313905ea360e_r.jpg
+Warning! Registry member not used
+   Text #257: Image reference for image #26
+Warning! Registry member not used
+   Text #258: v2-be956c83936029f5dcdf5fbe18e051c5_r.jpg
+Warning! Registry member not used
+   Text #259: https://pic2.zhimg.com/v2-be956c83936029f5dcdf5fbe18e051c5_r.jpg
+Warning! Registry member not used
+   Text #260: v2-74fc12ae2313056c3178ccdb6e2fe0ab_b.gif
+Warning! Registry member not used
+   Text #261: https://pic4.zhimg.com/v2-74fc12ae2313056c3178ccdb6e2fe0ab_b.gif
+Warning! Registry member not used
+   Text #262: Image reference for image #28
+Warning! Registry member not used
+   Text #263: v2-55df129bfa01028cb92a26ffc1f07310_r.jpg
+Warning! Registry member not used
+   Text #264: https://pic1.zhimg.com/v2-55df129bfa01028cb92a26ffc1f07310_r.jpg
+Warning! Registry member not used
+   Text #265: Image reference for image #29
+Warning! Registry member not used
+   Text #266: v2-25729548bb6f57f885fe7c1b53a5be1d_r.jpg
+Warning! Registry member not used
+   Text #267: https://pic2.zhimg.com/v2-25729548bb6f57f885fe7c1b53a5be1d_r.jpg
+Warning! Registry member not used
+   Text #268: Image reference for image #30
+Warning! Registry member not used
+   Text #269: v2-c158fbc2b3cae7740e29273951b38ac8_r.jpg
+Warning! Registry member not used
+   Text #270: Image reference for image #31
+Warning! Registry member not used
+   Text #271: v2-e93cbe5ba911bfd9d36375a234860bc7_r.jpg
+Warning! Registry member not used
+   Text #272: https://pic4.zhimg.com/v2-e93cbe5ba911bfd9d36375a234860bc7_r.jpg
+Warning! Registry member not used
+   Text #273: Image reference for image #32
+Warning! Registry member not used
+   Text #274: v2-9917fc429a070c532f8abfd708bcc161_r.jpg
+Warning! Registry member not used
+   Text #275: https://pic2.zhimg.com/v2-9917fc429a070c532f8abfd708bcc161_r.jpg
+Warning! Registry member not used
+   Text #276: Image reference for image #33
+Warning! Registry member not used
+   Text #277: v2-a065a515087ad1340a327fff58c71dc6_r.jpg
+Warning! Registry member not used
+   Text #278: https://pic3.zhimg.com/v2-a065a515087ad1340a327fff58c71dc6_r.jpg
+Warning! Registry member not used
+   Text #279: Image reference for image #34
+Warning! Registry member not used
+   Text #280: v2-9503c59f7dbe11b895fc47dd72b4f8e4_r.jpg
+Warning! Registry member not used
+   Text #281: https://pic1.zhimg.com/v2-9503c59f7dbe11b895fc47dd72b4f8e4_r.jpg
+Warning! Registry member not used
+   Text #282: Image reference for image #35
+Warning! Registry member not used
+   Text #283: v2-bdec35b281ccba6347ec39f100248b48_r.jpg
+Warning! Registry member not used
+   Text #284: Image reference for image #36
+Warning! Registry member not used
+   Text #285: v2-53796ec1009b15d80dc03f03db6ca918_r.jpg
+Warning! Registry member not used
+   Text #286: https://pic1.zhimg.com/v2-53796ec1009b15d80dc03f03db6ca918_r.jpg
+Warning! Registry member not used
+   Text #287: Image reference for image #37
+Warning! Registry member not used
+   Text #288: v2-02d3a3145dd048d74519af821029d3c1_r.jpg
+Warning! Registry member not used
+   Text #289: https://pic2.zhimg.com/v2-02d3a3145dd048d74519af821029d3c1_r.jpg
+Warning! Registry member not used
+   Text #290: Image reference for image #38
+Warning! Registry member not used
+   Text #291: v2-00bbdac0bdd147d5cf50ca6ad0919c02_r.jpg
+Warning! Registry member not used
+   Text #292: https://pic3.zhimg.com/v2-00bbdac0bdd147d5cf50ca6ad0919c02_r.jpg
+Warning! Registry member not used
+   Text #293: Image reference for image #39
+Warning! Registry member not used
+   Text #294: v2-3114e29dcde380fd1b7afa9b22bc8acc_b.jpg
+Warning! Registry member not used
+   Text #295: https://pic1.zhimg.com/v2-3114e29dcde380fd1b7afa9b22bc8acc_b.jpg
+Warning! Registry member not used
+   Text #296: v2-abeeb554061b14cd698a373c95901666_r.jpg
+Warning! Registry member not used
+   Text #297: https://pic3.zhimg.com/v2-abeeb554061b14cd698a373c95901666_r.jpg
+Warning! Registry member not used
+   Text #298: Image reference for image #41
+Warning! Registry member not used
+   Text #299: v2-cb7293df939ea85f1a0b9663632a48b9_720w.jpg&sign=e0859cc8eda09041e044af7d22748b8cd99b1f3f893f7bb86449ca1040d01582
+Warning! Registry member not used
+   Text #300: Imported on Nov 06, 2021, 16:11:58
+Warning! Registry member not used
+   Text #301: https://www.yuque.com/api/filetransfer/images?url=https://pic2.zhimg.com/80/v2-cb7293df939ea85f1a0b9663632a48b9_720w ...
+Warning! Registry member not used
+   Text #302: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/11/118.jpg
+Warning! Registry member not used
+   Text #303: v2-a4794c03f88f74b504881ba379dc24af_720w.jpg&sign=d25a04595457efe3862d1ae4e4ec61db23205111d78866a9a8911fe858309aec
+Warning! Registry member not used
+   Text #304: Imported on Nov 06, 2021, 16:12:14
+Warning! Registry member not used
+   Text #305: https://www.yuque.com/api/filetransfer/images?url=https://pic4.zhimg.com/80/v2-a4794c03f88f74b504881ba379dc24af_720w ...
+Warning! Registry member not used
+   Text #306: Image reference for image #43
+Warning! Registry member not used
+   Text #307: Image reference for image #49
+Warning! Registry member not used
+   Text #308: v2-aca1ea927463573520c27a7aad735533_720w.jpg&sign=ca3a7667d5f99113c0705f625f8825535514f46231fa8f76585664509223fd23
+Warning! Registry member not used
+   Text #309: Imported on Nov 06, 2021, 16:12:22
+Warning! Registry member not used
+   Text #310: https://www.yuque.com/api/filetransfer/images?url=https://pic4.zhimg.com/80/v2-aca1ea927463573520c27a7aad735533_720w ...
+Warning! Registry member not used
+   Text #311: Image reference for image #44
+Warning! Registry member not used
+   Text #312: Image reference for image #54
+Warning! Registry member not used
+   Text #313: Image reference for image #64
+Warning! Registry member not used
+   Text #314: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/125.jpg
+Warning! Registry member not used
+   Text #316: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/11/119.jpg
+Warning! Registry member not used
+   Text #319: Imported on Nov 16, 2021, 23:43:05
+Warning! Registry member not used
+   Text #321: 118.jpg
+Warning! Registry member not used
+   Text #322: Image reference for image #48
+Warning! Registry member not used
+   Text #323: Imported on Nov 16, 2021, 23:43:06
+Warning! Registry member not used
+   Text #324: 120.jpg
+Warning! Registry member not used
+   Text #325: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/11/120.jpg
+Warning! Registry member not used
+   Text #326: Image reference for image #50
+Warning! Registry member not used
+   Text #327: 121.jpg
+Warning! Registry member not used
+   Text #328: Image reference for image #51
+Warning! Registry member not used
+   Text #329: 122.jpg
+Warning! Registry member not used
+   Text #330: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/122.jpg
+Warning! Registry member not used
+   Text #331: Image reference for image #52
+Warning! Registry member not used
+   Text #332: 123.jpg
+Warning! Registry member not used
+   Text #333: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/123.jpg
+Warning! Registry member not used
+   Text #334: Image reference for image #53
+Warning! Registry member not used
+   Text #335: 125.jpg
+Warning! Registry member not used
+   Text #336: Image reference for image #55
+Warning! Registry member not used
+   Text #337: 126.jpg
+Warning! Registry member not used
+   Text #338: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/126.jpg
+Warning! Registry member not used
+   Text #339: Image reference for image #56
+Warning! Registry member not used
+   Text #340: 127.jpg
+Warning! Registry member not used
+   Text #341: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/127.jpg
+Warning! Registry member not used
+   Text #342: Image reference for image #57
+Warning! Registry member not used
+   Text #343: 128.jpg
+Warning! Registry member not used
+   Text #344: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/12/128.jpg
+Warning! Registry member not used
+   Text #345: Image reference for image #58
+Warning! Registry member not used
+   Text #346: v2-9efb6e5a5d58e1b1fdd2313905ea360e_b.png
+Warning! Registry member not used
+   Text #347: https://pic3.zhimg.com/v2-9efb6e5a5d58e1b1fdd2313905ea360e_b.png
+Warning! Registry member not used
+   Text #348: Image reference for image #59
+Warning! Registry member not used
+   Text #349: 130.jpg
+Warning! Registry member not used
+   Text #350: Image reference for image #60
+Warning! Registry member not used
+   Text #351: 131.gif
+Warning! Registry member not used
+   Text #352: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/131.gif
+Warning! Registry member not used
+   Text #353: Image reference for image #61
+Warning! Registry member not used
+   Text #354: 132.jpg
+Warning! Registry member not used
+   Text #355: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/132.jpg
+Warning! Registry member not used
+   Text #356: Image reference for image #62
+Warning! Registry member not used
+   Text #357: 133.jpg
+Warning! Registry member not used
+   Text #358: Imported on Nov 16, 2021, 23:43:07
+Warning! Registry member not used
+   Text #359: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/133.jpg
+Warning! Registry member not used
+   Text #360: Image reference for image #63
+Warning! Registry member not used
+   Text #361: 134.jpg
+Warning! Registry member not used
+   Text #362: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/134.jpg
+Warning! Registry member not used
+   Text #363: 135.jpg
+Warning! Registry member not used
+   Text #364: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/135.jpg
+Warning! Registry member not used
+   Text #365: Image reference for image #65
+Warning! Registry member not used
+   Text #366: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/136.jpg
+Warning! Registry member not used
+   Text #367: Image reference for image #66
+Warning! Registry member not used
+   Text #368: 137.jpg
+Warning! Registry member not used
+   Text #369: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/137.jpg
+Warning! Registry member not used
+   Text #370: Image reference for image #67
+Warning! Registry member not used
+   Text #371: 138.jpg
+Warning! Registry member not used
+   Text #372: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/138.jpg
+Warning! Registry member not used
+   Text #373: Image reference for image #68
+Warning! Registry member not used
+   Text #374: 139.jpg
+Warning! Registry member not used
+   Text #375: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/139.jpg
+Warning! Registry member not used
+   Text #376: Image reference for image #69
+Warning! Registry member not used
+   Text #377: 140.jpg
+Warning! Registry member not used
+   Text #378: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/13/140.jpg
+Warning! Registry member not used
+   Text #379: Image reference for image #70
+Warning! Registry member not used
+   Text #380: 141.jpg
+Warning! Registry member not used
+   Text #381: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/14/141.jpg
+Warning! Registry member not used
+   Text #382: Image reference for image #71
+Warning! Registry member not used
+   Text #383: 142.jpg
+Warning! Registry member not used
+   Text #384: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/14/142.jpg
+Warning! Registry member not used
+   Text #385: Image reference for image #72
+Warning! Registry member not used
+   Text #386: 143.jpg
+Warning! Registry member not used
+   Text #387: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/14/143.jpg
+Warning! Registry member not used
+   Text #388: Image reference for image #73
+Warning! Registry member not used
+   Text #389: 144.jpg
+Warning! Registry member not used
+   Text #390: file://z:/applications (parallels)/sm18-lazy-package/sm18/systems/abc of supermemo 18/elements/14/144.jpg
+Warning! Registry member not used
+   Text #391: Image reference for image #74
+Warning! Registry member not used
+   Text #393: Image reference for image #75
+Warning! Registry member not used
+   Text #396: v2-ce1c2adae3aa3b35d08c465c8a4f1b20_b.jpg
+Warning! Registry member not used
+   Text #397: Imported on Nov 16, 2021, 23:46:03
+Warning! Registry member not used
+   Text #398: https://pic1.zhimg.com/v2-ce1c2adae3aa3b35d08c465c8a4f1b20_b.jpg
+Warning! Registry member not used
+   Text #399: v2-769dfa33e4cf568e289394f709a706e5_b.jpg
+Warning! Registry member not used
+   Text #400: https://pic2.zhimg.com/v2-769dfa33e4cf568e289394f709a706e5_b.jpg
+Warning! Registry member not used
+   Text #401: Image reference for image #76
+Warning! Registry member not used
+   Text #402: v2-262c8611feaa836e3d45af69aba3ced2_b.jpg
+Warning! Registry member not used
+   Text #403: https://pic3.zhimg.com/v2-262c8611feaa836e3d45af69aba3ced2_b.jpg
+Warning! Registry member not used
+   Text #404: Image reference for image #77
+Warning! Registry member not used
+   Text #405: v2-35a3d5e073bc0937eaa935a28f7341e1_b.jpg
+Warning! Registry member not used
+   Text #406: https://pic2.zhimg.com/v2-35a3d5e073bc0937eaa935a28f7341e1_b.jpg
+Warning! Registry member not used
+   Text #407: Image reference for image #78
+Warning! Registry member not used
+   Text #408: v2-8524fc36d46ad0afeccb094948c652da_b.jpg
+Warning! Registry member not used
+   Text #409: https://pic3.zhimg.com/v2-8524fc36d46ad0afeccb094948c652da_b.jpg
+Warning! Registry member not used
+   Text #410: Image reference for image #79
+Warning! Registry member not used
+   Text #411: v2-404baf3718b865586e1525f14417a502_b.jpg
+Warning! Registry member not used
+   Text #412: https://pic3.zhimg.com/v2-404baf3718b865586e1525f14417a502_b.jpg
+Warning! Registry member not used
+   Text #413: Image reference for image #80
+Warning! Registry member not used
+   Text #414: https://pic3.zhimg.com/v2-aa0882f7f250c229ed009c25b7f3d462_b.jpg
+Warning! Registry member not used
+   Text #415: Image reference for image #81
+Warning! Registry member not used
+   Text #416: v2-ec1e6102413cdbe406e1e70b337e626a_b.jpg
+Warning! Registry member not used
+   Text #417: https://pic3.zhimg.com/v2-ec1e6102413cdbe406e1e70b337e626a_b.jpg
+Warning! Registry member not used
+   Text #418: Image reference for image #82
+Warning! Registry member not used
+   Text #419: v2-bf5c552a825ddf36e47cd2639268a168_b.jpg
+Warning! Registry member not used
+   Text #420: https://pic1.zhimg.com/v2-bf5c552a825ddf36e47cd2639268a168_b.jpg
+Warning! Registry member not used
+   Text #421: Image reference for image #83
+Warning! Registry member not used
+   Text #422: v2-cb409d8449d95c4da0f500571172623d_b.jpg
+Warning! Registry member not used
+   Text #423: https://pic2.zhimg.com/v2-cb409d8449d95c4da0f500571172623d_b.jpg
+Warning! Registry member not used
+   Text #424: Image reference for image #84
+Warning! Registry member not used
+   Text #425: v2-c5fabf6d955df06067f1a7c861465841_b.jpg
+Warning! Registry member not used
+   Text #426: Imported on Nov 16, 2021, 23:46:04
+Warning! Registry member not used
+   Text #427: https://pic2.zhimg.com/v2-c5fabf6d955df06067f1a7c861465841_b.jpg
+Warning! Registry member not used
+   Text #428: Image reference for image #85
+Warning! Registry member not used
+   Text #429: v2-d6843199cc5ede56c184530ba48b6942_b.jpg
+Warning! Registry member not used
+   Text #430: https://pic3.zhimg.com/v2-d6843199cc5ede56c184530ba48b6942_b.jpg
+Warning! Registry member not used
+   Text #431: Image reference for image #86
+Warning! Registry member not used
+   Text #432: v2-0090e38f02708e5a8e08d5d4cbe8b5f4_b.jpg
+Warning! Registry member not used
+   Text #433: https://pic1.zhimg.com/v2-0090e38f02708e5a8e08d5d4cbe8b5f4_b.jpg
+Warning! Registry member not used
+   Text #434: Image reference for image #87
+Warning! Registry member not used
+   Text #435: v2-b48c35ecea8bc5d0f47de39b4c017139_b.jpg
+Warning! Registry member not used
+   Text #436: https://pic2.zhimg.com/v2-b48c35ecea8bc5d0f47de39b4c017139_b.jpg
+Warning! Registry member not used
+   Text #437: Image reference for image #88
+Warning! Registry member not used
+   Text #438: v2-2cb83d826e47fae55f9b8d82a0f0daa9_b.jpg
+Warning! Registry member not used
+   Text #439: https://pic2.zhimg.com/v2-2cb83d826e47fae55f9b8d82a0f0daa9_b.jpg
+Warning! Registry member not used
+   Text #440: Image reference for image #89
+Warning! Registry member not used
+   Text #441: v2-50eec25f165c0c0e27599df33cee77b3_b.jpg
+Warning! Registry member not used
+   Text #442: https://pic4.zhimg.com/v2-50eec25f165c0c0e27599df33cee77b3_b.jpg
+Warning! Registry member not used
+   Text #443: Image reference for image #90
+Warning! Registry member not used
+   Text #444: v2-6147f9ee89bf2d7ab3da3d1c252434c5_b.jpg
+Warning! Registry member not used
+   Text #445: https://pic2.zhimg.com/v2-6147f9ee89bf2d7ab3da3d1c252434c5_b.jpg
+Warning! Registry member not used
+   Text #446: Image reference for image #91
+Warning! Registry member not used
+   Text #447: v2-7ecf80ac91d442606310d744c0ab53ab_b.jpg
+Warning! Registry member not used
+   Text #448: https://pic4.zhimg.com/v2-7ecf80ac91d442606310d744c0ab53ab_b.jpg
+Warning! Registry member not used
+   Text #449: Image reference for image #92
+Warning! Registry member not used
+   Text #450: v2-9e8ec6e5ee5352c448f6561ddcd89733_b.jpg
+Warning! Registry member not used
+   Text #451: https://pic4.zhimg.com/v2-9e8ec6e5ee5352c448f6561ddcd89733_b.jpg
+Warning! Registry member not used
+   Text #452: Image reference for image #93
+Warning! Registry member not used
+   Text #453: v2-26e61471787157b52a2a5df42669952d_b.jpg
+Warning! Registry member not used
+   Text #454: https://pic2.zhimg.com/v2-26e61471787157b52a2a5df42669952d_b.jpg
+Warning! Registry member not used
+   Text #455: Image reference for image #94
+Warning! Registry member not used
+   Text #456: v2-c3443f76e59ff4549fd0eb6a287f9799_b.jpg
+Warning! Registry member not used
+   Text #457: https://pic2.zhimg.com/v2-c3443f76e59ff4549fd0eb6a287f9799_b.jpg
+Warning! Registry member not used
+   Text #458: Image reference for image #95
+Warning! Registry member not used
+   Text #1488: aviation
+252 unused member(s) in the Text registry
+Verifying Font registry
+Verifying Reference registry
+Warning! Registry member not used
+   Reference #5: 54.jpg
+Warning! Registry member not used
+   Reference #6: 51.jpg
+Warning! Registry member not used
+   Reference #8: v2-ed2fbf25b61fd37d46c80c65f63fba47_r.jpg
+Warning! Registry member not used
+   Reference #9: v2-8536b0d9dfefeebb3e9246e38f56180d_r.jpg
+Warning! Registry member not used
+   Reference #10: v2-ec0383ff503824201d11e9f049550210_r.jpg
+Warning! Registry member not used
+   Reference #11: v2-eddaaacc5a23a21964a9a82ed3c97840_r.jpg
+Warning! Registry member not used
+   Reference #12: v2-d1914edd6878e6ef8717917b2c2c06aa_r.jpg
+Warning! Registry member not used
+   Reference #13: v2-96d2ea52310e70242af955defbb3c984_r.jpg
+Warning! Registry member not used
+   Reference #14: v2-625dd9a115a21ca342d70750a3febaf0_r.jpg
+Warning! Registry member not used
+   Reference #15: v2-700e62c0c20b20070d2bc3314e36c3e1_r.jpg
+Warning! Registry member not used
+   Reference #16: v2-08d7a5fc5a160d4572d2e538b673bd4d_r.jpg
+Warning! Registry member not used
+   Reference #17: v2-1d7552de8065b23f88616e3d34409cf8_b.jpg
+Warning! Registry member not used
+   Reference #18: v2-9016ff7f9219da283d01c13bc0e91e4c_r.jpg
+Warning! Registry member not used
+   Reference #19: v2-9efb6e5a5d58e1b1fdd2313905ea360e_r.jpg
+Warning! Registry member not used
+   Reference #20: v2-be956c83936029f5dcdf5fbe18e051c5_r.jpg
+Warning! Registry member not used
+   Reference #21: v2-74fc12ae2313056c3178ccdb6e2fe0ab_b.gif
+Warning! Registry member not used
+   Reference #22: v2-55df129bfa01028cb92a26ffc1f07310_r.jpg
+Warning! Registry member not used
+   Reference #23: v2-25729548bb6f57f885fe7c1b53a5be1d_r.jpg
+Warning! Registry member not used
+   Reference #24: v2-c158fbc2b3cae7740e29273951b38ac8_r.jpg
+Warning! Registry member not used
+   Reference #25: v2-e93cbe5ba911bfd9d36375a234860bc7_r.jpg
+Warning! Registry member not used
+   Reference #26: v2-9917fc429a070c532f8abfd708bcc161_r.jpg
+Warning! Registry member not used
+   Reference #27: v2-a065a515087ad1340a327fff58c71dc6_r.jpg
+Warning! Registry member not used
+   Reference #28: v2-9503c59f7dbe11b895fc47dd72b4f8e4_r.jpg
+Warning! Registry member not used
+   Reference #29: v2-bdec35b281ccba6347ec39f100248b48_r.jpg
+Warning! Registry member not used
+   Reference #30: v2-53796ec1009b15d80dc03f03db6ca918_r.jpg
+Warning! Registry member not used
+   Reference #31: v2-02d3a3145dd048d74519af821029d3c1_r.jpg
+Warning! Registry member not used
+   Reference #32: v2-00bbdac0bdd147d5cf50ca6ad0919c02_r.jpg
+Warning! Registry member not used
+   Reference #33: v2-3114e29dcde380fd1b7afa9b22bc8acc_b.jpg
+Warning! Registry member not used
+   Reference #34: v2-abeeb554061b14cd698a373c95901666_r.jpg
+Warning! Registry member not used
+   Reference #35: v2-cb7293df939ea85f1a0b9663632a48b9_720w.jpg&sign=e0859cc8eda09041e044af7d22748b8cd99b1f3f893f7bb86449ca1040d01582
+Warning! Registry member not used
+   Reference #36: v2-a4794c03f88f74b504881ba379dc24af_720w.jpg&sign=d25a04595457efe3862d1ae4e4ec61db23205111d78866a9a8911fe858309aec
+Warning! Registry member not used
+   Reference #37: v2-aca1ea927463573520c27a7aad735533_720w.jpg&sign=ca3a7667d5f99113c0705f625f8825535514f46231fa8f76585664509223fd23
+Warning! Registry member not used
+   Reference #38: 118.jpg
+Warning! Registry member not used
+   Reference #39: 119.jpg
+Warning! Registry member not used
+   Reference #40: 120.jpg
+Warning! Registry member not used
+   Reference #41: 121.jpg
+Warning! Registry member not used
+   Reference #42: 122.jpg
+Warning! Registry member not used
+   Reference #43: 123.jpg
+Warning! Registry member not used
+   Reference #44: Image reference for image #54
+Warning! Registry member not used
+   Reference #45: 125.jpg
+Warning! Registry member not used
+   Reference #46: 126.jpg
+Warning! Registry member not used
+   Reference #47: 127.jpg
+Warning! Registry member not used
+   Reference #48: 128.jpg
+Warning! Registry member not used
+   Reference #49: v2-9efb6e5a5d58e1b1fdd2313905ea360e_b.png
+Warning! Registry member not used
+   Reference #50: 130.jpg
+Warning! Registry member not used
+   Reference #51: 131.gif
+Warning! Registry member not used
+   Reference #52: 132.jpg
+Warning! Registry member not used
+   Reference #53: 133.jpg
+Warning! Registry member not used
+   Reference #54: 134.jpg
+Warning! Registry member not used
+   Reference #55: 135.jpg
+Warning! Registry member not used
+   Reference #56: 136.jpg
+Warning! Registry member not used
+   Reference #57: 137.jpg
+Warning! Registry member not used
+   Reference #58: 138.jpg
+Warning! Registry member not used
+   Reference #59: 139.jpg
+Warning! Registry member not used
+   Reference #60: 140.jpg
+Warning! Registry member not used
+   Reference #61: 141.jpg
+Warning! Registry member not used
+   Reference #62: 142.jpg
+Warning! Registry member not used
+   Reference #63: 143.jpg
+Warning! Registry member not used
+   Reference #64: 144.jpg
+Warning! Registry member not used
+   Reference #65: v2-ce1c2adae3aa3b35d08c465c8a4f1b20_b.jpg
+Warning! Registry member not used
+   Reference #66: v2-769dfa33e4cf568e289394f709a706e5_b.jpg
+Warning! Registry member not used
+   Reference #67: v2-262c8611feaa836e3d45af69aba3ced2_b.jpg
+Warning! Registry member not used
+   Reference #68: v2-35a3d5e073bc0937eaa935a28f7341e1_b.jpg
+Warning! Registry member not used
+   Reference #69: v2-8524fc36d46ad0afeccb094948c652da_b.jpg
+Warning! Registry member not used
+   Reference #70: v2-404baf3718b865586e1525f14417a502_b.jpg
+Warning! Registry member not used
+   Reference #71: v2-aa0882f7f250c229ed009c25b7f3d462_b.jpg
+Warning! Registry member not used
+   Reference #72: v2-ec1e6102413cdbe406e1e70b337e626a_b.jpg
+Warning! Registry member not used
+   Reference #73: v2-bf5c552a825ddf36e47cd2639268a168_b.jpg
+Warning! Registry member not used
+   Reference #74: v2-cb409d8449d95c4da0f500571172623d_b.jpg
+Warning! Registry member not used
+   Reference #75: v2-c5fabf6d955df06067f1a7c861465841_b.jpg
+Warning! Registry member not used
+   Reference #76: v2-d6843199cc5ede56c184530ba48b6942_b.jpg
+Warning! Registry member not used
+   Reference #77: v2-0090e38f02708e5a8e08d5d4cbe8b5f4_b.jpg
+Warning! Registry member not used
+   Reference #78: v2-b48c35ecea8bc5d0f47de39b4c017139_b.jpg
+Warning! Registry member not used
+   Reference #79: v2-2cb83d826e47fae55f9b8d82a0f0daa9_b.jpg
+Warning! Registry member not used
+   Reference #80: v2-50eec25f165c0c0e27599df33cee77b3_b.jpg
+Warning! Registry member not used
+   Reference #81: v2-6147f9ee89bf2d7ab3da3d1c252434c5_b.jpg
+Warning! Registry member not used
+   Reference #82: v2-7ecf80ac91d442606310d744c0ab53ab_b.jpg
+Warning! Registry member not used
+   Reference #83: v2-9e8ec6e5ee5352c448f6561ddcd89733_b.jpg
+Warning! Registry member not used
+   Reference #84: v2-26e61471787157b52a2a5df42669952d_b.jpg
+Warning! Registry member not used
+   Reference #85: v2-c3443f76e59ff4549fd0eb6a287f9799_b.jpg
+80 unused member(s) in the Reference registry
+Verifying Ole registry
+Verifying Image registry
+Warning! Registry member not used
+   Image #1: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage28284.jpg
+Warning! Registry member not used
+   Image #2: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage12168.jpg
+Warning! Registry member not used
+   Image #3: PastedImage28300.jpg
+Warning! Registry member not used
+   Image #5: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage11518.jpg
+Warning! Registry member not used
+   Image #6: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage28865.jpg
+Warning! Registry member not used
+   Image #7: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage397.jpg
+Warning! Registry member not used
+   Image #8: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage18217.jpg
+Warning! Registry member not used
+   Image #9: 51.jpg
+Warning! Registry member not used
+   Image #10: 54.jpg
+Warning! Registry member not used
+   Image #11: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage12275.jpg
+Warning! Registry member not used
+   Image #12: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage7030.jpg
+Warning! Registry member not used
+   Image #13: cloze
+Warning! Registry member not used
+   Image #14: z:\applications (parallels)\sm18\systems\abc of supermemo 18\temp\PastedImage722.jpg
+Warning! Registry member not used
+   Image #15: v2-8536b0d9dfefeebb3e9246e38f56180d_r.jpg
+Warning! Registry member not used
+   Image #16: v2-ed2fbf25b61fd37d46c80c65f63fba47_r.jpg
+Warning! Registry member not used
+   Image #17: v2-d1914edd6878e6ef8717917b2c2c06aa_r.jpg
+Warning! Registry member not used
+   Image #18: v2-ec0383ff503824201d11e9f049550210_r.jpg
+Warning! Registry member not used
+   Image #19: v2-eddaaacc5a23a21964a9a82ed3c97840_r.jpg
+Warning! Registry member not used
+   Image #20: v2-96d2ea52310e70242af955defbb3c984_r.jpg
+Warning! Registry member not used
+   Image #21: v2-625dd9a115a21ca342d70750a3febaf0_r.jpg
+Warning! Registry member not used
+   Image #22: v2-700e62c0c20b20070d2bc3314e36c3e1_r.jpg
+Warning! Registry member not used
+   Image #23: v2-08d7a5fc5a160d4572d2e538b673bd4d_r.jpg
+Warning! Registry member not used
+   Image #24: v2-1d7552de8065b23f88616e3d34409cf8_b.jpg
+Warning! Registry member not used
+   Image #25: v2-9016ff7f9219da283d01c13bc0e91e4c_r.jpg
+Warning! Registry member not used
+   Image #26: v2-9efb6e5a5d58e1b1fdd2313905ea360e_r.jpg
+Warning! Registry member not used
+   Image #27: v2-be956c83936029f5dcdf5fbe18e051c5_r.jpg
+Warning! Registry member not used
+   Image #28: v2-74fc12ae2313056c3178ccdb6e2fe0ab_b.gif
+Warning! Registry member not used
+   Image #29: v2-55df129bfa01028cb92a26ffc1f07310_r.jpg
+Warning! Registry member not used
+   Image #30: v2-25729548bb6f57f885fe7c1b53a5be1d_r.jpg
+Warning! Registry member not used
+   Image #31: v2-c158fbc2b3cae7740e29273951b38ac8_r.jpg
+Warning! Registry member not used
+   Image #32: v2-e93cbe5ba911bfd9d36375a234860bc7_r.jpg
+Warning! Registry member not used
+   Image #33: v2-9917fc429a070c532f8abfd708bcc161_r.jpg
+Warning! Registry member not used
+   Image #34: v2-a065a515087ad1340a327fff58c71dc6_r.jpg
+Warning! Registry member not used
+   Image #35: v2-9503c59f7dbe11b895fc47dd72b4f8e4_r.jpg
+Warning! Registry member not used
+   Image #36: v2-bdec35b281ccba6347ec39f100248b48_r.jpg
+Warning! Registry member not used
+   Image #37: v2-53796ec1009b15d80dc03f03db6ca918_r.jpg
+Warning! Registry member not used
+   Image #38: v2-02d3a3145dd048d74519af821029d3c1_r.jpg
+Warning! Registry member not used
+   Image #39: v2-00bbdac0bdd147d5cf50ca6ad0919c02_r.jpg
+Warning! Registry member not used
+   Image #40: v2-3114e29dcde380fd1b7afa9b22bc8acc_b.jpg
+Warning! Registry member not used
+   Image #41: v2-abeeb554061b14cd698a373c95901666_r.jpg
+Warning! Registry member not used
+   Image #42: v2-cb7293df939ea85f1a0b9663632a48b9_720w.jpg&sign=e0859cc8eda09041e044af7d22748b8cd99b1f3f893f7bb86449ca1040d01582
+Warning! Registry member not used
+   Image #43: v2-a4794c03f88f74b504881ba379dc24af_720w.jpg&sign=d25a04595457efe3862d1ae4e4ec61db23205111d78866a9a8911fe858309aec
+Warning! Registry member not used
+   Image #44: v2-aca1ea927463573520c27a7aad735533_720w.jpg&sign=ca3a7667d5f99113c0705f625f8825535514f46231fa8f76585664509223fd23
+Warning! Registry member not used
+   Image #45: z:\applications (parallels)\sm18懒人包\sm18\systems\abc of supermemo 18\temp\PastedImage7825.jpg
+Warning! Registry member not used
+   Image #46: z:\applications (parallels)\sm18懒人包\sm18\systems\abc of supermemo 18\temp\PastedImage920.jpg
+Warning! Registry member not used
+   Image #47: z:\applications (parallels)\sm18懒人包\sm18\systems\abc of supermemo 18\temp\PastedImage12637.jpg
+Warning! Registry member not used
+   Image #48: 118.jpg
+Warning! Registry member not used
+   Image #49: 119.jpg
+Warning! Registry member not used
+   Image #50: 120.jpg
+Warning! Registry member not used
+   Image #51: 121.jpg
+Warning! Registry member not used
+   Image #52: 122.jpg
+Warning! Registry member not used
+   Image #53: 123.jpg
+Warning! Registry member not used
+   Image #54: z:\applications (parallels)\sm18-lazy-package\sm18\systems\abc of supermemo 18\temp\ImageDownload-El92-Comp1-Thumb-7.jpg
+Warning! Registry member not used
+   Image #55: 125.jpg
+Warning! Registry member not used
+   Image #56: 126.jpg
+Warning! Registry member not used
+   Image #57: 127.jpg
+Warning! Registry member not used
+   Image #58: 128.jpg
+Warning! Registry member not used
+   Image #59: v2-9efb6e5a5d58e1b1fdd2313905ea360e_b.png
+Warning! Registry member not used
+   Image #60: 130.jpg
+Warning! Registry member not used
+   Image #61: 131.gif
+Warning! Registry member not used
+   Image #62: 132.jpg
+Warning! Registry member not used
+   Image #63: 133.jpg
+Warning! Registry member not used
+   Image #64: 134.jpg
+Warning! Registry member not used
+   Image #65: 135.jpg
+Warning! Registry member not used
+   Image #66: 136.jpg
+Warning! Registry member not used
+   Image #67: 137.jpg
+Warning! Registry member not used
+   Image #68: 138.jpg
+Warning! Registry member not used
+   Image #69: 139.jpg
+Warning! Registry member not used
+   Image #70: 140.jpg
+Warning! Registry member not used
+   Image #71: 141.jpg
+Warning! Registry member not used
+   Image #72: 142.jpg
+Warning! Registry member not used
+   Image #73: 143.jpg
+Warning! Registry member not used
+   Image #74: 144.jpg
+Warning! Registry member not used
+   Image #75: v2-ce1c2adae3aa3b35d08c465c8a4f1b20_b.jpg
+Warning! Registry member not used
+   Image #76: v2-769dfa33e4cf568e289394f709a706e5_b.jpg
+Warning! Registry member not used
+   Image #77: v2-262c8611feaa836e3d45af69aba3ced2_b.jpg
+Warning! Registry member not used
+   Image #78: v2-35a3d5e073bc0937eaa935a28f7341e1_b.jpg
+Warning! Registry member not used
+   Image #79: v2-8524fc36d46ad0afeccb094948c652da_b.jpg
+Warning! Registry member not used
+   Image #80: v2-404baf3718b865586e1525f14417a502_b.jpg
+Warning! Registry member not used
+   Image #81: v2-aa0882f7f250c229ed009c25b7f3d462_b.jpg
+Warning! Registry member not used
+   Image #82: v2-ec1e6102413cdbe406e1e70b337e626a_b.jpg
+Warning! Registry member not used
+   Image #83: v2-bf5c552a825ddf36e47cd2639268a168_b.jpg
+Warning! Registry member not used
+   Image #84: v2-cb409d8449d95c4da0f500571172623d_b.jpg
+Warning! Registry member not used
+   Image #85: v2-c5fabf6d955df06067f1a7c861465841_b.jpg
+Warning! Registry member not used
+   Image #86: v2-d6843199cc5ede56c184530ba48b6942_b.jpg
+Warning! Registry member not used
+   Image #87: v2-0090e38f02708e5a8e08d5d4cbe8b5f4_b.jpg
+Warning! Registry member not used
+   Image #88: v2-b48c35ecea8bc5d0f47de39b4c017139_b.jpg
+Warning! Registry member not used
+   Image #89: v2-2cb83d826e47fae55f9b8d82a0f0daa9_b.jpg
+Warning! Registry member not used
+   Image #90: v2-50eec25f165c0c0e27599df33cee77b3_b.jpg
+Warning! Registry member not used
+   Image #91: v2-6147f9ee89bf2d7ab3da3d1c252434c5_b.jpg
+Warning! Registry member not used
+   Image #92: v2-7ecf80ac91d442606310d744c0ab53ab_b.jpg
+Warning! Registry member not used
+   Image #93: v2-9e8ec6e5ee5352c448f6561ddcd89733_b.jpg
+Warning! Registry member not used
+   Image #94: v2-26e61471787157b52a2a5df42669952d_b.jpg
+Warning! Registry member not used
+   Image #95: v2-c3443f76e59ff4549fd0eb6a287f9799_b.jpg
+Warning! Registry member not used
+   Image #96: z:\applications (parallels)\sm18-lazy-package\sm18\systems\abc of supermemo 18\temp\PastedImage28488.jpg
+Warning! Registry member not used
+   Image #97: z:\applications (parallels)\sm18-lazy-package\sm18\systems\abc of supermemo 18\temp\PastedImage4838.jpg
+Warning! Registry member not used
+   Image #98: 1
+97 unused member(s) in the Image registry
+Verifying Sound registry
+Warning! Registry member not used
+   Sound #5: Atlantic)
+Warning! Registry member not used
+   Sound #12: aviation
+2 unused member(s) in the Sound registry
+Verifying Video registry
+Verifying Style registry
+Wrong reference count for Style #1: 数理
+   Count: reported=84 found=88
+   Registry: style
+++++++++++++++++++++++    ERROR #15   ++++++++++++++++++++++
+   Wrong length of registry usership list for Style #1: 数理
+   Count: reported=84 found=87
+   Registry: style
+Verifying Script registry
+Verifying Program registry
+Verifying Template registry
+++++++++++++++++++++++    ERROR #16   ++++++++++++++++++++++
+   Wrong reference count for Template #19: costom defaut
+   Count: reported=32 found=33
+   Registry: template
+++++++++++++++++++++++    ERROR #17   ++++++++++++++++++++++
+   Wrong length of registry usership list for Template #19: costom defaut
+   Count: reported=31 found=33
+   Registry: template
+++++++++++++++++++++++    ERROR #18   ++++++++++++++++++++++
+   Missing reference to Item #129: py 已知item从list中移除的方法. py 已知item从list中移除的方法.
+   on registry list for Template #19: costom defaut
+   Registry: template
+++++++++++++++++++++++    ERROR #19   ++++++++++++++++++++++
+   Missing reference to Item #842: 当你想要将一张卡片加入到当天的待复习队列时，  你可以使用快捷键 [.]，然后输入一个数字。 该数字决定了这张卡片出现在队列的位置。默认为队列尾部。 输入 1 然后点确定，即可将卡片加入队首。（即当天第一个出现）
+   on registry list for Template #19: costom defaut
+   Registry: template
+Verifying Tasklist registry
+Warning! Registry member not used
+   Tasklist #1: Tasks
+1 unused member(s) in the Tasklist registry
+Verifying Concept registry
+Verifying Link registry
+Deleting directory: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18\registry\Style_users
+Deleting directory: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18\registry\Template_users
+Verifying OLE filespace
+Verifying image filespace
+Verifying sound filespace
+Verifying video filespace
+Verifying stylesheet filespace
+Verifying script filespace
+Verifying binary filespace
+Verifying text filespace
+Inspecting 1562 filespace slots
+Unused filespace slot count: 5
+Checking for empty filespace slots
+Inspecting 5 empty filespace slot(s)
+Deleting directory: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18\registry\lexicon_users
+Building new lexicon: 1,926 texts
+Warning!
+   Changed registry size
+   Registry:      Lexicon
+   Size reported:    6997
+   Size found:  3905
+Verifying repetition history
+++++++++++++++++++++++    ERROR #20   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #3: 重复是对抗遗忘的关键武器
+++++++++++++++++++++++    ERROR #21   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #4: 备份
+++++++++++++++++++++++    ERROR #22   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #5: SuperMemo 会经常请你给句子填空。
+++++++++++++++++++++++    ERROR #23   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #10: 在你点击学习按钮后，你将要遍历所有被安排到今天复习的材料。按回车查看下一张卡片。
+++++++++++++++++++++++    ERROR #24   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #12: 使用 SuperMemo 学习
+++++++++++++++++++++++    ERROR #25   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #13: 使用 SuperMemo，你只需要记得两个快捷键： Ctrl+L - 重复要学习的材料（学习） Alt+A - 添加新的问题和回答（新增）
+++++++++++++++++++++++    ERROR #26   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #14: 使用 SuperMemo，你只需要记得两个快捷键：  Alt+A - 添加新的问题和回答（新增）  [.] - 重复要学习的材料（学习）
+++++++++++++++++++++++    ERROR #27   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #18: 你可以尝试添加你自己的问题和答案。. 现在按下 Alt+A 并输入任何内容。. 注：在你输入完问题后，你可以按 Esc 移动到答案区继续输入。. 记住！. 你可以点击学习按钮或按下 Ctrl+L 或回车，返回继续学习。. 你也可以按Image #2: z:\applications (parallels)\sm18\systems\abc of .
+++++++++++++++++++++++    ERROR #28   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #19: SuperMemo 将会帮你安排复习计划
+++++++++++++++++++++++    ERROR #29   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #24: 在你输入完问题后，你可以按 Esc 移动到答案区继续输入。
+++++++++++++++++++++++    ERROR #30   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #26: 如果你每天都复习，SuperMemo 可以确保你记住 95% 学过的内容。 你可以提供这个百分比，但这是以学习速度为代价。你也可以学得更快，但记住得更少。 在少数情况下，你学习的材料特别难，以至于 SuperMemo 无法保证 95% 的记忆。为了防止这种情况发生，请阅读：https://www.yuque.com/supermemo/wiki .
+++++++++++++++++++++++    ERROR #31   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #27: 如果你每天都完成复习（点击学习按钮），SuperMemo 能确保你记住 95% 学过的内容。每天只有很小比例学习材料会被安排复习。如果你想要确保 95% 的保留率，这个比例是必要的。
+++++++++++++++++++++++    ERROR #32   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #29: 如果你每天都完成复习（点击学习按钮），SuperMemo 能确保你记住 [.] 学过的内容。每天只有很小比例学习材料会被安排复习。如果你想要确保 95% 的保留率，这个比例是必要的。
+++++++++++++++++++++++    ERROR #33   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #31: 排除学习材料
+++++++++++++++++++++++    ERROR #34   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #32: 你可以按 Ctrl+D 排除一张你不想学习的卡片
+++++++++++++++++++++++    ERROR #35   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #35: 渐进阅读
+++++++++++++++++++++++    ERROR #36   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #37: 导入一篇网络文章到 SuperMemo： . 在你的网页浏览器，复制选中的文本（Ctrl+C） . 在 SuperMemo，点击（Ctrl+N）
+++++++++++++++++++++++    ERROR #37   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #39: 导入一篇网络文章到 SuperMemo：  在你的网页浏览器，复制选中的文本（Ctrl+C）  在 SuperMemo，点击[.]）
+++++++++++++++++++++++    ERROR #38   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #42: 试试 Ctrl+N
+++++++++++++++++++++++    ERROR #39   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #43: 现在试试摘录
+++++++++++++++++++++++    ERROR #40   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #44: 摘录片段
+++++++++++++++++++++++    ERROR #41   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #45: 如何摘录片段？
+++++++++++++++++++++++    ERROR #42   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #46: 将摘录转换为问答
+++++++++++++++++++++++    ERROR #43   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #47: 挖空工具
+++++++++++++++++++++++    ERROR #44   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #48: 选中关键词，并按下（Alt+Z），可创建问答卡片（完型填空）
+++++++++++++++++++++++    ERROR #45   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #50: 选中关键词，并按下[.]，可创建问答卡片（完型填空）
+++++++++++++++++++++++    ERROR #46   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #51: 在你创建一个完型填空后，你可以点击按钮，或按下Alt+??查看你挖空的结果
+++++++++++++++++++++++    ERROR #47   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #52: 挖空后，点击[.]来查看结果
+++++++++++++++++++++++    ERROR #48   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #53: 在你创建一个完型填空后，你可以点击按钮，或按下[.]查看你挖空的结果
+++++++++++++++++++++++    ERROR #49   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #54: 进一步阅读
+++++++++++++++++++++++    ERROR #50   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #57: 常见问题
+++++++++++++++++++++++    ERROR #51   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #58: 第五、填空题简单而有效
+++++++++++++++++++++++    ERROR #52   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #60: 第七、使用助记技巧
+++++++++++++++++++++++    ERROR #53   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #61: 第十二、优化措辞
+++++++++++++++++++++++    ERROR #54   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #62: 第六、使用图片
+++++++++++++++++++++++    ERROR #55   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #63: 卡片改模板
+++++++++++++++++++++++    ERROR #56   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #64: 第十九、提供时间标记
+++++++++++++++++++++++    ERROR #57   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #65: 第十六、上下文提示可以简化措辞
+++++++++++++++++++++++    ERROR #58   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #67: 有效的学习：处理知识的20条规则
+++++++++++++++++++++++    ERROR #59   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #68: 第九、避免使用集合
+++++++++++++++++++++++    ERROR #60   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #69: 调整优先级
+++++++++++++++++++++++    ERROR #61   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #70: 第二、先学再记
+++++++++++++++++++++++    ERROR #62   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #72: 如何写出好卡片：利用间隔重复创造理解
+++++++++++++++++++++++    ERROR #63   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #73: 第二十、确定优先顺序
+++++++++++++++++++++++    ERROR #64   ++++++++++++++++++++++
+   Registering a review in the timeline: 
+   Aug 17, 2022, 13:27:18
+   Topic #73: 第二十、确定优先顺序
+++++++++++++++++++++++    ERROR #65   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #76: 第三、从基础开始
+++++++++++++++++++++++    ERROR #66   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #78: 加入待复习队列
+++++++++++++++++++++++    ERROR #67   ++++++++++++++++++++++
+   Registering a review in the timeline: 
+   Aug 17, 2022, 13:55:19
+   Topic #78: 加入待复习队列
+++++++++++++++++++++++    ERROR #68   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #79: 回到原文
+++++++++++++++++++++++    ERROR #69   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #80: 之后再学
+++++++++++++++++++++++    ERROR #70   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #81: 删除卡片内容
+++++++++++++++++++++++    ERROR #71   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #82: 第八、使用图像填空
+++++++++++++++++++++++    ERROR #72   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #83: 第一、如果我不理解这个材料，那我不如不学
+++++++++++++++++++++++    ERROR #73   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #84: 第四、最小信息原则
+++++++++++++++++++++++    ERROR #74   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #85: 第十、避免使用枚举
+++++++++++++++++++++++    ERROR #75   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #86: 第十一、与干扰做斗争
+++++++++++++++++++++++    ERROR #76   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #87: 第十三、与其它记忆产生联想
+++++++++++++++++++++++    ERROR #77   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #88: 第十四、建立材料与个人的联系并给出例子
+++++++++++++++++++++++    ERROR #78   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #89: 第十五、借助情绪状态
+++++++++++++++++++++++    ERROR #79   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #90: 第十七、冗余但不违背最小信息原则
+++++++++++++++++++++++    ERROR #80   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #91: 第十八、提供信息来源
+++++++++++++++++++++++    ERROR #81   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #92: 渐进阅读基本概念与操作介绍
+++++++++++++++++++++++    ERROR #82   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #93: 知识树 Knowledge Tree. 知识树是渐进阅读中，随着我们的摘录、挖空而自动生成的大纲结构。. 通过拖动、添加，我们可以手动调整知识树的结构，或添加新的卡片。
+++++++++++++++++++++++    ERROR #83   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #94: Title: 渐进阅读基本概念与操作介绍 . 在前文《同时阅读上百篇文章？渐进阅读之程序员视角 (IRAPP)》中，我通过类比进程切换，介绍了渐进阅读的整体概念和 6 个动作。. 本文将在此基础上引入 SuperMemo 中渐进阅读的细节概念和具体操作，带大家过一遍在 SuperMemo 里实践渐进阅读的流程。 .
+++++++++++++++++++++++    ERROR #84   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #95: 概念
+++++++++++++++++++++++    ERROR #85   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #96: 卡片. 在 SuperMemo 中，卡片是我们每次阅读、摘录、改写、挖空、复习的基本单位。最常见的两种卡片是摘录卡片（Topic）和问答卡片（Item）。让我们先来了解一下它们吧！
+++++++++++++++++++++++    ERROR #86   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #97: 摘录卡片 Topic. 摘录卡片，就是用于阅读的文本。它可以是一整篇文章，也可以是几个段落，甚至是一句话。. 摘录卡片是我们用于生成问答卡片的基础。在渐进阅读中，摘录卡片会随着我们的深入理解，从完整的文章生成多个独立的片段，再逐步拆分出大量能够完整说明一个简单知识的句子。. 每一次摘录（高亮）文本，SuperMemo .
+++++++++++++++++++++++    ERROR #87   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #98: 问答卡片 Item. 问答卡片，就是用于自我测试的问题 - 答案 - 对。在渐进阅读中，问答卡片通常是用挖空创建的。. 问答卡片和摘录卡片的主要区别是，问答卡片需要我们主动回忆来测试自己是否记住该知识，而摘录卡片只用于被动阅读、改写、摘录。
+++++++++++++++++++++++    ERROR #88   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #99: 优先级 Priority. 优先级是指卡片在你的知识集合中的优先程度。渐进阅读使学习大量知识变得容易，但是如果我们不能有效的处理所有导入的知识，我们可能会浪费时间在低优先的材料上，而忽略了高优先的材料。. 在渐进阅读中，所有卡片都会按照优先级排序（有一定的随机化），这样就形成了一个优先级队列。 .
+++++++++++++++++++++++    ERROR #89   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #100: 待办队列 Outstanding Queue. 待办队列由所有已经到期的卡片组成。默认情况下，每处理 4 张问答卡片，就会出现 1 张摘录卡片。如果到期的所有问答卡片都被处理完毕，将安排剩下的摘录卡片。. 通常待办队列里的卡片会根据优先级排序，并加入一点的随机性。. 待办队列的完成进度将会显示在状态栏（Status bar）中： .
+++++++++++++++++++++++    ERROR #90   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #101: 概念组 Concept Group. 概念组就类似于 Anki 中的牌组，可以用来归类不同的卡片。. 同时，概念组还可以设置对应的卡片模板和默认优先级。所有新增的卡片都会设为概念组默认的模板和优先级。
+++++++++++++++++++++++    ERROR #91   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #102: 操作. 了解了基础概念后，让我们学习一下在 SuperMemo 中实践渐进阅读的几个具体操作吧！
+++++++++++++++++++++++    ERROR #92   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #103: 添加概念组. Alt + C，打开知识树的窗口。右键一个节点，建立一个文件夹（Folder）. 点击文件夹节点，Ctrl + K 或右键，创建概念：. 输入概念的名字，点击 OK 即可：. 注：新建的概念组会成为默认的概念组
+++++++++++++++++++++++    ERROR #93   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #104: 设置默认概念组. 点击菜单栏上的电灯泡：. 在左侧选择一个概念组，再点击 Accept. 恭喜你，你已经设置好了默认的概念组，之后导入的文章都会添加到该概念组之中。. 注：勾选 Auto-apply 可以帮助你自动设置模板，这样新建卡片的时候就不用自己设置了。
+++++++++++++++++++++++    ERROR #94   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #105: 导入文章. 这里只介绍导入可复制材料的最简单方式，其他材料的导入将会在后续文章中专门介绍。. 注：大部分操作只要有快捷键我就只会用快捷键。掌握快捷键是进行沉浸式渐进阅读的重要一环。. 一步一步来：. 在任何地方，Ctrl + C，复制你感兴趣的内容 . 在 SuperMemo 中，Alt + N，添加一个新的摘录卡片 .
+++++++++++++++++++++++    ERROR #95   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #106: 阅读文章. Ctrl + L，开始你的学习，如果出现了一张摘录卡片，那么我们就可以开始阅读了。. 可能用到的快键键：. E（或点击文本）：进入编辑模式 . Ctrl + F7：设置阅读点，下一次遇到这篇文章时，SuperMemo 会自动跳到阅读点（默认的阅读点是你最后一个进行摘录的位置） . Esc：退出编辑模式， .
+++++++++++++++++++++++    ERROR #96   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #107: 摘录 Extract. 选中你认为重要的内容， Alt + X，选中的文本会被蓝色高亮，并生成一张以选中文本为内容的摘录卡片。. 新生成的摘录卡片会在几日内安排再次阅读，这取决于原文本的优先级。. Shift + Alt + X 可以在摘录后直接设置摘录部分的阅读时间、优先级，不过普通的摘录一般够用了。 . 关于摘录什么样的内容，这里有几点经验： .
+++++++++++++++++++++++    ERROR #97   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #108: 挖空 Cloze. 选中要挖空的关键词或短语，Alt + Z，选中的文本会被橙色高亮，并生成一张正面为挖空句子，背面为挖空内容的问答卡片。. 该问答卡片也会在 1~30 天内安排复习（一般优先级高的都会在 5 天内复习）
+++++++++++++++++++++++    ERROR #98   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #109: 主动回忆. 在使用渐进阅读几天后，我们可能会遇到第一张问答卡片。只需要先看正面回忆背面，然后查看答案自觉打分即可。. SuperMemo 的评分有 5 个档次，其中 1, 2 对应遗忘，3,4,5 对应想起，具体的评分标准有人总结为下图：. 当然，你也可以设定自己的标准，算法会解决背后的复习问题。
+++++++++++++++++++++++    ERROR #99   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #110: 设置优先级. 新增卡片的优先级是由对应的概念组默认设置的。当然，我们可以做出自己的决定，设置一切卡片的优先级。. Alt + P，呼出优先级设置菜单：. 拖动滑块即可调整优先级。左边是高优先，右边是低优先。
+++++++++++++++++++++++    ERROR #100   ++++++++++++++++++++++
+   Registering a review in the timeline: 
+   Aug 17, 2022, 13:12:58
+   Topic #110: 设置优先级. 新增卡片的优先级是由对应的概念组默认设置的。当然，我们可以做出自己的决定，设置一切卡片的优先级。. Alt + P，呼出优先级设置菜单：. 拖动滑块即可调整优先级。左边是高优先，右边是低优先。
+++++++++++++++++++++++    ERROR #101   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #111: 其他技巧. 这里是一些不太好分类，但是可能会比较常用的技巧：
+++++++++++++++++++++++    ERROR #102   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #112: 常用快捷键. Ctrl + ↑：查看上一级，通常是你摘录出来的摘录卡片和问答卡片的原文。 . Alt + ←：查看上一张卡片，如果你做了摘录或挖空，上一张卡片就是你刚刚摘录或挖空的卡片。 . Ctrl + Shift + M：为当前卡片选择模板 . Ctrl + Shift + .
+++++++++++++++++++++++    ERROR #103   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #113: 自动排序和自动延迟. 自动排序是默认开启的：. 自动延迟需要自己手动开启：
+++++++++++++++++++++++    ERROR #104   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #114: 窗口布局. SuperMemo 的窗口非常多，我一般在复习时只留一个显示卡片的窗口：. 可以通过拖动边框来调整窗口大小，在 Window 菜单中设置要出现的窗口，并用 Save custom layout 保存调整好的窗口：
+++++++++++++++++++++++    ERROR #105   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #115: 参数设置. Tookit》Options 打开参数设置. SuperMemo 就没什么参数好设置了，一个全局的遗忘指数（Forgetting index），默认为 10%，即每个卡片只有到遗忘率为 10% 时才会安排复习。. Mdinight shift 就是更新每日待办队列的时间。默认是 0h，也就是午夜更新，熬夜党可以把这个调到 .
+++++++++++++++++++++++    ERROR #106   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #116: 结语. 以上就是本期介绍的全部内容，这些操作是 SuperMemo 中最常用也是最有用的。如果你有任何疑问，欢迎评论区讨论。. 也欢迎阅读 SuperMemo China 志愿者维护的 SM18 中文帮助手册：. SuperMemo 18 帮助文档 · 语雀全文完 . 本文由 简悦 SimpRead 优化，用以提升阅读体验. 使用了 .
+++++++++++++++++++++++    ERROR #107   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #117: When you visit any of our websites, it may store or {{retrieve}} information on your browser, mostly in the form of cookies.
+++++++++++++++++++++++    ERROR #108   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #119: Each key is an option that {{modifies}} the property identified in the section name
+++++++++++++++++++++++    ERROR #109   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #121: 修正（correcting ）元素。如果有问题和答案，可以使用Q、A或E等键输入相应的文本字段并对其进行更改。在更复杂的元素中，可以使用Ctrl+T在各字段之间循环，或者按住Alt再单击某个字段区域，可以在编辑模式和拖动模式之间切换。
+++++++++++++++++++++++    ERROR #110   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #126: avoid lists, sets and {{enumerations}}
+++++++++++++++++++++++    ERROR #111   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #130: py 已知index从list中移除的方法
+++++++++++++++++++++++    ERROR #112   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #133: Unlike other languages, the character a does not {{imply}} the number 97 until it is encoded using ASCII
+++++++++++++++++++++++    ERROR #113   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #134: py 获取某一网页的html
+++++++++++++++++++++++    ERROR #114   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #148: I gave the barber a tip.
+++++++++++++++++++++++    ERROR #115   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #157: The cupboard is easy to assemble .
+++++++++++++++++++++++    ERROR #116   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #182: In the future , people may heat their homes with atomic power.
+++++++++++++++++++++++    ERROR #117   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #220: Brass is an alloy of copper and zinc .2
+++++++++++++++++++++++    ERROR #118   ++++++++++++++++++++++
+   Registering a review in the timeline: 
+   Aug 17, 2022, 11:29:18
+   Item #231: AHK 热字串执行命令怎么写
+++++++++++++++++++++++    ERROR #119   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #276: It hurts when I bend my knee.
+++++++++++++++++++++++    ERROR #120   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #280: Jack collapsed in agony on the floor .
+++++++++++++++++++++++    ERROR #121   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #321: The police arrived to arrest him .
+++++++++++++++++++++++    ERROR #122   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #328: The committee refused to attribute blame without further information.
+++++++++++++++++++++++    ERROR #123   ++++++++++++++++++++++
+   Registering a review in the timeline: 
+   Aug 13, 2022, 09:41:33
+   Item #330: AHK 如何显示一个message box
+++++++++++++++++++++++    ERROR #124   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #331: To serve as responsible stewards of the planet , we must press forward on deeper atmospheric and oceanic research.
+++++++++++++++++++++++    ERROR #125   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #354: Lead can accumulate in the body until toxic levels are reached.
+++++++++++++++++++++++    ERROR #126   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #366: The user can plug any accessory directly into the ball , like a lamp to study or a cell phone charger .
+++++++++++++++++++++++    ERROR #127   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #371: Their ancestor is different from that of micro bats .
+++++++++++++++++++++++    ERROR #128   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #374: To serve as responsible stewards of the planet , we must press forward on deeper atmospheric and oceanic research.2
+++++++++++++++++++++++    ERROR #129   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #375: He laughs loudly when I accuse him of fibbing .
+++++++++++++++++++++++    ERROR #130   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #380: An adult hedgehog can boast 7,500 spines.0
+++++++++++++++++++++++    ERROR #131   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #397: Judy , it is my great privilege to officially assign you to the heart of Zootopia .
+++++++++++++++++++++++    ERROR #132   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #398: She's the artistic type .
+++++++++++++++++++++++    ERROR #133   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #406: They were fighting for freedom of speech and freedom of assembly .
+++++++++++++++++++++++    ERROR #134   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #432: They rejected a demand for the removal of all nuclear weapons .
+++++++++++++++++++++++    ERROR #135   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #446: The party was a blast.
+++++++++++++++++++++++    ERROR #136   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #447: I had set myself a tough assignment .
+++++++++++++++++++++++    ERROR #137   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #457: We anticipate that sales will rise next year .
+++++++++++++++++++++++    ERROR #138   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #462: Let's assume for the sake of argument that we manage to build a satisfactory database.
+++++++++++++++++++++++    ERROR #139   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #464: 在阅读过程中，你可以从文章中摘录最重要的部分进行学习。  从你的文章中摘录一个重要的片段： 选中片段，然后  点击窗口底部的（[.]）
+++++++++++++++++++++++    ERROR #140   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #478: Oil prices fell to $ 9 a barrel.
+++++++++++++++++++++++    ERROR #141   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #492: An adult hedgehog can boast 7,500 spines.
+++++++++++++++++++++++    ERROR #142   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #502: I wanted the front garden to be a blaze of colour.
+++++++++++++++++++++++    ERROR #143   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #524: Mr.Lin is associate director of the Institute.
+++++++++++++++++++++++    ERROR #144   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #526: How did you learn to bake cakes ?
+++++++++++++++++++++++    ERROR #145   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #539: He whittled a new handle for his ax.0
+++++++++++++++++++++++    ERROR #146   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #549: 加工知识. 你应该知道所有的学习材料都需要你无穷无尽的关注才能被记住。你应该检查你的元素的有用性、表述正确、逻辑、语法等。当复习一个元素时，你应该对以下内容做出快速而近乎本能的评估：. 我真的需要这个元素 吗？. 我现在真的需要知道吗？或者我以后可以学吗？. 这个元素难记吗？如果是，为什么？. 这是真正正确的吗？. 是否还可以尽可能简单明了？ .
+++++++++++++++++++++++    ERROR #147   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #551: 渐进阅读是阅读和复习之间的交织，这对理解大有帮助，因此，提供了一个更好的知识联系的机会。渐进阅读的巨大优势在于，它有助于避免快速达到工作记忆的瓶颈。工作记忆的容量非常有限：试着在 5 条新信息之间慢跑，你很可能会失去你的思路。
+++++++++++++++++++++++    ERROR #148   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #552: 将句子转化成完形填空：  选中句子中有意义的关键词，然后  点击窗口底部的（[.]）   注：你可以点击（Alt+??）查看你挖空的结果
+++++++++++++++++++++++    ERROR #149   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #553: 将句子转化成完形填空：  选中句子中有意义的关键词，然后  点击窗口底部的（Alt+Z）   注：你可以点击[.]查看你挖空的结果
+++++++++++++++++++++++    ERROR #150   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #554: 你应该知道所有的学习材料都需要你无穷无尽的关注才能被记住。你应该检查你的元素的有用性、表述正确、逻辑、语法等。当复习一个元素时，你应该对以下内容做出快速而近乎本能的评估：   我真的需要这个元素 吗？ 我现在真的需要知道吗？或者我以后可以学吗？ 这个元素难记吗？如果是，为什么？ 这是真正正确的吗？ 是否还可以尽可能简单明了？
+++++++++++++++++++++++    ERROR #151   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #555: 重新调度（rescheduling） 元素。您可以手动更改某个元素下次复习的日期。如果您对某个元素很了解，可以适当延长下次复习的时间。如果元素非常重要，可以缩短复习间隔。如果还没复 .
+++++++++++++++++++++++    ERROR #152   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #556: 搁置（dismissing） 元素。如果您确定以后不太可能需要该元素，但希望将其保留在收藏中以供参考或存档，请按Ctrl+D将其搁置。已搁置的元素将从学习过程（和挂起队列）中移除。
+++++++++++++++++++++++    ERROR #153   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #557: 删除（deleting） 问答卡片 / 文章。Del键在清理收藏里面的垃圾时非常有用。请注意，删除元素也会删除其子元素，此操作是不可逆的。您可以使用Shift+Ctrl+Enter来删除元素的内容，而不删除其子元素。
+++++++++++++++++++++++    ERROR #154   ++++++++++++++++++++++
+   Errors found in repetition history
+   Topic #558: 遗忘（forgetting）元素。如果你认为某个元素目前太难或不够重要，你可以以后再学习。为此，请按Ctrl+Shift+R将其从学习过程中删除。这将把它放在挂起队列[2]的末尾。
+++++++++++++++++++++++    ERROR #155   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #568: Critics claim the trucks are unsafe.
+++++++++++++++++++++++    ERROR #156   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #577: What is a reasonable standard for one family is not applicable for another .
+++++++++++++++++++++++    ERROR #157   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #607: I still have affection for my old school .
+++++++++++++++++++++++    ERROR #158   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #608: This doesn't alter the way I think
+++++++++++++++++++++++    ERROR #159   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #648: So which companies get the ax as we start 2011?
+++++++++++++++++++++++    ERROR #160   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #653: The Senate has now endorsed the bill and can't turn back .0
+++++++++++++++++++++++    ERROR #161   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #679: He said he wasn't prepared to bargain.
+++++++++++++++++++++++    ERROR #162   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #702: She didn't give an adequate explanation for being late .
+++++++++++++++++++++++    ERROR #163   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #711: He heard the school bell ring.
+++++++++++++++++++++++    ERROR #164   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #718: 摘录出来的卡片，或者挖空的卡片，想要看原文？  如果你没有移动这些卡片的位置，那么 [.]就可以回到原文了。 嗯，摘录/挖空的卡片都会成为原卡片的下级。  如果对摘录的卡片继续摘录，就会加入到摘录卡片的下级。
+++++++++++++++++++++++    ERROR #165   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #720: Be careful you don't knock your head on this low beam.0
+++++++++++++++++++++++    ERROR #166   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #733: My news will astonish you.
+++++++++++++++++++++++    ERROR #167   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #777: I made the acquaintance of several musicians around that time .
+++++++++++++++++++++++    ERROR #168   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #787: They reached it and sat down among the wealth of bloom.0
+++++++++++++++++++++++    ERROR #169   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #805: The map shows the principal towns and rivers.
+++++++++++++++++++++++    ERROR #170   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #815: The man had genius and had made his mark in the aviation world.
+++++++++++++++++++++++    ERROR #171   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #821: He has a healthy appetite .
+++++++++++++++++++++++    ERROR #172   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #842: 当你想要将一张卡片加入到当天的待复习队列时，  你可以使用快捷键 [.]，然后输入一个数字。 该数字决定了这张卡片出现在队列的位置。默认为队列尾部。 输入 1 然后点确定，即可将卡片加入队首。（即当天第一个出现）
+++++++++++++++++++++++    ERROR #173   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #871: Please fetch the biscuit by yourself.
+++++++++++++++++++++++    ERROR #174   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #894: To serve as responsible stewards of the planet , we must press forward on deeper atmospheric and oceanic research.0
+++++++++++++++++++++++    ERROR #175   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #910: He's not very good at arithmetic .
+++++++++++++++++++++++    ERROR #176   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #928: The user can plug any accessory directly into the ball , like a lamp to study or a cell phone charger .0
+++++++++++++++++++++++    ERROR #177   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #930: Some are so accustomed to pigging out , they can't cut back.
+++++++++++++++++++++++    ERROR #178   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #948: By his own admission, he was smoking and drinking too much.
+++++++++++++++++++++++    ERROR #179   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #980: There is an abundant supply of cheap labour .0
+++++++++++++++++++++++    ERROR #180   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,005: Romance is beginning to bloom.
+++++++++++++++++++++++    ERROR #181   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,040: Students with high hope set themselves higher goals and know how to work to attain them.
+++++++++++++++++++++++    ERROR #182   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,043: The arrow pierced his shoulder .0
+++++++++++++++++++++++    ERROR #183   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,052: Early booking is advisable .
+++++++++++++++++++++++    ERROR #184   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,076: They planned to march on and liberate the city .0
+++++++++++++++++++++++    ERROR #185   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,107: AI , you boast too much.
+++++++++++++++++++++++    ERROR #186   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,114: Her father was shot by someone trying to rob his small retail shop .
+++++++++++++++++++++++    ERROR #187   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,125: She tried to accustom herself to the tight bandages .
+++++++++++++++++++++++    ERROR #188   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,164: Brass is an alloy of copper and zinc .
+++++++++++++++++++++++    ERROR #189   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,177: Let's assume for the sake of argument that we manage to build a satisfactory database.0
+++++++++++++++++++++++    ERROR #190   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,183: The association holds an annual reunion .
+++++++++++++++++++++++    ERROR #191   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,207: The coroner recorded a verdict of accidental death .0
+++++++++++++++++++++++    ERROR #192   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,209: I found the letter amongst his papers .
+++++++++++++++++++++++    ERROR #193   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,238: One of the boys had to be rescued by firemen wearing breathing apparatus .
+++++++++++++++++++++++    ERROR #194   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,254: The coroner recorded a verdict of accidental death .
+++++++++++++++++++++++    ERROR #195   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,257: 卡片太难了，想要之后再学？  Ctrl+J 可以自己设置下一次复习这张卡片的间隔，同时保留复习历史。 [.]也可以，但会清除复习历史（相当于变成新卡片）。 如果 Ctrl+M 后不输入间隔，，卡片会从复习过程中清除，变成新学材料。
+++++++++++++++++++++++    ERROR #196   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,264: Lead can accumulate in the body until toxic levels are reached .
+++++++++++++++++++++++    ERROR #197   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,306: The aluminium body is 12% lighter than if built with steel .
+++++++++++++++++++++++    ERROR #198   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,326: He never ceases to amaze me .0
+++++++++++++++++++++++    ERROR #199   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,359: Please write it into the Bible for it is a long history of your relations.
+++++++++++++++++++++++    ERROR #200   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,377: Another low is moving in from the Atlantic.
+++++++++++++++++++++++    ERROR #201   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,416: He never ceases to amaze me .
+++++++++++++++++++++++    ERROR #202   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,475: He laughs loudly when I accuse him of fibbing .0
+++++++++++++++++++++++    ERROR #203   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,481: The aeroplane will travel at twice the speed of sound.
+++++++++++++++++++++++    ERROR #204   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,502: You can claim back the tax on your purchases.
+++++++++++++++++++++++    ERROR #205   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,535: He became famous as an inventor of astonishing visual and aural effects.0
+++++++++++++++++++++++    ERROR #206   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,563: They reached it and sat down among the wealth of bloom.
+++++++++++++++++++++++    ERROR #207   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,573: Jane is determined to stake her claim as an actress .
+++++++++++++++++++++++    ERROR #208   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,620: There was a naff band playing.0
+++++++++++++++++++++++    ERROR #209   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,629: John twisted his ankle badly .
+++++++++++++++++++++++    ERROR #210   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,668: She received the news with apparent unconcern .
+++++++++++++++++++++++    ERROR #211   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,681: The Senate has now endorsed the bill(法案) and can't turn back(回头).
+++++++++++++++++++++++    ERROR #212   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,747: Those products have rightly been stopped in accordance with our safety routines .
+++++++++++++++++++++++    ERROR #213   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,752: Electric current is measured by the ampere .
+++++++++++++++++++++++    ERROR #214   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,762: The association holds an annual reunion .0
+++++++++++++++++++++++    ERROR #215   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,765: Be careful you don't knock your head on this low beam.
+++++++++++++++++++++++    ERROR #216   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,771: Peter ought to be ashamed of himself.
+++++++++++++++++++++++    ERROR #217   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,775: She sat at her loom and continued to weave .0
+++++++++++++++++++++++    ERROR #218   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,782: Esperanto was invented as an auxiliary language.
+++++++++++++++++++++++    ERROR #219   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,788: We await your command.
+++++++++++++++++++++++    ERROR #220   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,818: He has also called for an acceleration of political reforms .0
+++++++++++++++++++++++    ERROR #221   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,827: The arrow pierced his shoulder .
+++++++++++++++++++++++    ERROR #222   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,854: But you can use it as an adjective to give emphasis to the word that follows it.1
+++++++++++++++++++++++    ERROR #223   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,895: His hands were full of berry juice !
+++++++++++++++++++++++    ERROR #224   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,921: He's had his beard shaved off.0
+++++++++++++++++++++++    ERROR #225   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,942: He held the knife by its blade.
+++++++++++++++++++++++    ERROR #226   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,945: To serve as responsible stewards of the planet , we must press forward on deeper atmospheric and oceanic research.1
+++++++++++++++++++++++    ERROR #227   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,947: Brass is an alloy of copper and zinc .1
+++++++++++++++++++++++    ERROR #228   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,954: But you can use it as an adjective to give emphasis to the word that follows it.
+++++++++++++++++++++++    ERROR #229   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,966: These results accord closely with our predictions .
+++++++++++++++++++++++    ERROR #230   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #1,998: They had children and were consequently tied to the school vacations .
+++++++++++++++++++++++    ERROR #231   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,016: Oh blast ! The car won't start.
+++++++++++++++++++++++    ERROR #232   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,052: Automation meant the loss of many factory jobs.
+++++++++++++++++++++++    ERROR #233   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,068: He whittled a new handle for his ax.
+++++++++++++++++++++++    ERROR #234   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,076: 卡片太难了，想要之后再学？  [.] 可以自己设置下一次复习这张卡片的间隔，同时保留复习历史。 Ctrl+M 也可以，但会清除复习历史（相当于变成新卡片）。 如果 Ctrl+M 后不输入间隔，，卡片会从复习过程中清除，变成新学材料。
+++++++++++++++++++++++    ERROR #235   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,085: 渐进阅读基本概念与操作介绍 :  常用快捷键 [.]：查看上一级，通常是你摘录出来的摘录卡片和问答卡片的原文。  Alt + ←：查看上一张卡片，如果你做了摘录或挖空，上一张卡片就是你刚刚摘录或挖空的卡片。  Ctrl + Shift + M：为当前卡片选择模板  Ctrl + Shift + .
+++++++++++++++++++++++    ERROR #236   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,097: What is a reasonable standard for one family is not applicable for another .
+++++++++++++++++++++++    ERROR #237   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,125: The sailor coiled the rope around the anchor .
+++++++++++++++++++++++    ERROR #238   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,136: She had an aura(气质) of authority.
+++++++++++++++++++++++    ERROR #239   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,139: Her father was shot by someone trying to rob his small retail shop .0
+++++++++++++++++++++++    ERROR #240   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,147: There is an abundant supply of cheap labour .1
+++++++++++++++++++++++    ERROR #241   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,155: He makes unpredictable , arbitrary decisions .
+++++++++++++++++++++++    ERROR #242   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,188: Ash began to erupt from the crater .0
+++++++++++++++++++++++    ERROR #243   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,276: There is usually room to accommodate up to 80 visitors.
+++++++++++++++++++++++    ERROR #244   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,310: There is an acute shortage of water .
+++++++++++++++++++++++    ERROR #245   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,328: The accord underlined Italy's global reputation as a good steward of art and culture.
+++++++++++++++++++++++    ERROR #246   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,353: Badminton is an Olympic sport.
+++++++++++++++++++++++    ERROR #247   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,373: The rickety barn needs repairing.
+++++++++++++++++++++++    ERROR #248   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,375: In 1960 this was a bold move.
+++++++++++++++++++++++    ERROR #249   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,381: I needed to accommodate to the new schedule .
+++++++++++++++++++++++    ERROR #250   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,409: Lead can accumulate in the body until toxic levels are reached .0
+++++++++++++++++++++++    ERROR #251   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,420: Here it is an adverb .
+++++++++++++++++++++++    ERROR #252   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,456: It was a real bargain.
+++++++++++++++++++++++    ERROR #253   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,477: The blast tore a hole in the wall.
+++++++++++++++++++++++    ERROR #254   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,487: This landscape seemed to trap and amplify sounds .(类似回声)
+++++++++++++++++++++++    ERROR #255   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,496: Sandstorms are common during Arabian winter.
+++++++++++++++++++++++    ERROR #256   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,511: The appropriate word eluded him .0
+++++++++++++++++++++++    ERROR #257   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,537: The hotel staff are friendly and attentive.
+++++++++++++++++++++++    ERROR #258   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,542: He became famous as an inventor of astonishing visual and aural effects.
+++++++++++++++++++++++    ERROR #259   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,574: The coroner recorded a verdict of accidental death .
+++++++++++++++++++++++    ERROR #260   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,579: Brass is an alloy of copper and zinc .0
+++++++++++++++++++++++    ERROR #261   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,590: There is about half an acre around the house .
+++++++++++++++++++++++    ERROR #262   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,600: The committee refused to attribute blame without further information.0
+++++++++++++++++++++++    ERROR #263   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,611: Suddenly there was a loud bang.
+++++++++++++++++++++++    ERROR #264   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,613: Beside it , half-buried in the dirt , was a discarded banner.0
+++++++++++++++++++++++    ERROR #265   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,616: The user can plug any accessory directly into the ball , like a lamp to study or a cell phone charger .1
+++++++++++++++++++++++    ERROR #266   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,625: Before you buy a new appliance , talk to someone who owns one.
+++++++++++++++++++++++    ERROR #267   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,639: It hurts when I bend my knee.0
+++++++++++++++++++++++    ERROR #268   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,643: She's perfectly safe , I can assure you.
+++++++++++++++++++++++    ERROR #269   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,675: The earth revolves on its axis.0
+++++++++++++++++++++++    ERROR #270   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,695: Beside it , half-buried in the dirt , was a discarded banner.
+++++++++++++++++++++++    ERROR #271   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,698: She received the news with apparent unconcern .0
+++++++++++++++++++++++    ERROR #272   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,699: He's had his beard shaved off.
+++++++++++++++++++++++    ERROR #273   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,720: Jack collapsed in agony on the floor .0
+++++++++++++++++++++++    ERROR #274   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,778: The principal is a very busy woman .
+++++++++++++++++++++++    ERROR #275   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,787: I got the ax.(在公司里)
+++++++++++++++++++++++    ERROR #276   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,799: Ash began to erupt from the crater .
+++++++++++++++++++++++    ERROR #277   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,818: There is an abundant supply of cheap labour .
+++++++++++++++++++++++    ERROR #278   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,830: The aluminium body is 12% lighter than if built with steel .0
+++++++++++++++++++++++    ERROR #279   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,851: committee refused to attribute blame without further information.
+++++++++++++++++++++++    ERROR #280   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,888: An adult hedgehog can boast 7,500 spines.1
+++++++++++++++++++++++    ERROR #281   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,892: The rickety barn needs repairing.0
+++++++++++++++++++++++    ERROR #282   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,925: Let's assume for the sake of argument that we manage to build a satisfactory database.1
+++++++++++++++++++++++    ERROR #283   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,960: But you can use it as an adjective to give emphasis to the word that follows it.0
+++++++++++++++++++++++    ERROR #284   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,974: They planned to march on and liberate the city .
+++++++++++++++++++++++    ERROR #285   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,985: It is a difficult job and they should be paid accordingly .
+++++++++++++++++++++++    ERROR #286   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #2,986: John twisted his ankle badly .0
+++++++++++++++++++++++    ERROR #287   ++++++++++++++++++++++
+   Errors found in repetition history
+   Item #3,040: There was a naff band playing.
+Repetition history compressed from 75.699 kB to 73.515 kB
+Deleting temporary folders
+The size of remaining temporary files is 1.072 MB
+   These files can be deleted with File : Tools : Garbage
+Removing empty collection directories
+Deleting directory: f:\desktop\supermemo_17_18破解版_17直接解压_18安装后把key粘贴上去后unlock就好\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18\subsets\tmp\
+
+Process completed at 10:51:09 AM in 00:00:04 sec (Saturday, August 20, 2022)
+
+287 ERRORS (Checking the integrity of the collection)
+
+____________________________________________________________

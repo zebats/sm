@@ -1,0 +1,58 @@
+SuperMemo Report
+   Activity: Checking the integrity of the collection
+   Collection: d:\portableprogram\sm18\sm\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
+   Date: Tuesday, September 20, 2022, 2:47:05 PM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+Checking 3,512 element records (ElementInfo.dat)
+Verifying integrity of element data (3512 elements in ElementInfo.dat)
+++++++++++++++++++++++    ERROR #1   ++++++++++++++++++++++
+   Wrong pending element count
+   Expected: 8
+   Found:    0
+Verifying knowledge tree (3,512 elements in Contents.dat)
+420 children at Topic #2,444: CET4
+Verifying the priority queue of 1,016 elements
+Verifying repetition schedule (Workload.dat and ElementInfo.dat)
+Verifying pending queue (Intact.dat)
+++++++++++++++++++++++    ERROR #2   ++++++++++++++++++++++
+   Deleted/Memorized element #1817 in the pending queue
+++++++++++++++++++++++    ERROR #3   ++++++++++++++++++++++
+   Deleted/Memorized element #3361 in the pending queue
+++++++++++++++++++++++    ERROR #4   ++++++++++++++++++++++
+   Deleted/Memorized element #466 in the pending queue
+++++++++++++++++++++++    ERROR #5   ++++++++++++++++++++++
+   Deleted/Memorized element #1867 in the pending queue
+++++++++++++++++++++++    ERROR #6   ++++++++++++++++++++++
+   Deleted/Memorized element #2935 in the pending queue
+++++++++++++++++++++++    ERROR #7   ++++++++++++++++++++++
+   Deleted/Memorized element #1071 in the pending queue
+++++++++++++++++++++++    ERROR #8   ++++++++++++++++++++++
+   Deleted/Memorized element #2928 in the pending queue
+++++++++++++++++++++++    ERROR #9   ++++++++++++++++++++++
+   Deleted/Memorized element #1361 in the pending queue
+++++++++++++++++++++++    ERROR #10   ++++++++++++++++++++++
+   8 wrong elements in the pending queue
+++++++++++++++++++++++    ERROR #11   ++++++++++++++++++++++
+   Removing element #1817 from the pending queue
+++++++++++++++++++++++    ERROR #12   ++++++++++++++++++++++
+   Removing element #3361 from the pending queue
+++++++++++++++++++++++    ERROR #13   ++++++++++++++++++++++
+   Removing element #466 from the pending queue
+++++++++++++++++++++++    ERROR #14   ++++++++++++++++++++++
+   Removing element #1867 from the pending queue
+++++++++++++++++++++++    ERROR #15   ++++++++++++++++++++++
+   Removing element #2935 from the pending queue
+++++++++++++++++++++++    ERROR #16   ++++++++++++++++++++++
+   Removing element #1071 from the pending queue
+++++++++++++++++++++++    ERROR #17   ++++++++++++++++++++++
+   Removing element #2928 from the pending queue
+++++++++++++++++++++++    ERROR #18   ++++++++++++++++++++++
+   Removing element #1361 from the pending queue
+Verifying A-Factor, Lapses and Repetitions distributions
+
+Process completed at 2:47:07 PM in 00:00:01 sec (Tuesday, September 20, 2022)
+
+18 ERRORS (Checking the integrity of the collection)
+
+____________________________________________________________

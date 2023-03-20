@@ -1,0 +1,25 @@
+SuperMemo Report
+   Activity: Checking the integrity of the collection
+   Collection: c:\sm18\sm\sm18-lazy-package-1.2.2\sm18\systems\abc of supermemo 18
+   Date: Monday, February 13, 2023, 5:21:52 PM
+   SuperMemo 18 (Build 18.05, Oct 29, 2020)
+
+Checking 6,832 element records (ElementInfo.dat)
+Verifying integrity of element data (6832 elements in ElementInfo.dat)
+Verifying knowledge tree (6,832 elements in Contents.dat)
+363 children at Topic #206: Text File Import (Jan 31, 2023, Tue, 23:47) from File: C:\sm18\sm\sm18-lazy-package-1.2.2\CET4\eng.htm
+420 children at Topic #2,444: CET4
+352 children at Topic #1,796: no sounds
+1086 children at Concept #695: 组织学与胚胎学
+1305 children at Topic #2,740: 组织学与胚胎学
+507 children at Topic #530: 基化
+Verifying the priority queue of 6,068 elements
+Verifying repetition schedule (Workload.dat and ElementInfo.dat)
+Verifying pending queue (Intact.dat)
+Verifying A-Factor, Lapses and Repetitions distributions
+
+Process completed at 5:21:54 PM in 00:00:01 sec (Monday, February 13, 2023)
+
+NO ERRORS (Checking the integrity of the collection)
+
+____________________________________________________________
